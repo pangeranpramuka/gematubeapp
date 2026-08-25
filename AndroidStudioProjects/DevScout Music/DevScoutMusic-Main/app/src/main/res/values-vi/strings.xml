@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">Trang chủ</string>
     <string name="songs">Bài hát</string>
@@ -97,8 +97,8 @@
     <string name="liked_songs">Bài hát đã thích</string>
     <string name="downloaded_songs">Bài hát đã tải xuống</string>
     <string name="playlist_is_empty">Danh sách phát trống</string>
-    <string name="remove_download_playlist_confirm">Bạn có muốn xóa tất cả bài hát của \"%s\" khỏi mục đã tải xuống không?</string>
-    <string name="delete_playlist_confirm">Bạn có muốn xóa danh sách phát \"%s\" không?</string>
+    <string name="remove_download_playlist_confirm">Bạn có muốn xóa tất cả bài hát của \"%s\" khỏi mục đã tải xuống không</string>
+    <string name="delete_playlist_confirm">Bạn có muốn xóa danh sách phát \"%s\" không</string>
     <string name="change_playlist_cover">Thay đổi ảnh bìa danh sách phát</string>
     <string name="retry">Thử lại</string>
     <string name="shuffle">Xáo trộn</string>
@@ -134,8 +134,8 @@
     <string name="together_host_left_session">Chủ phòng đã rời phiên</string>
     <string name="together_kick">Đuổi</string>
     <string name="together_ban">Cấm</string>
-    <string name="together_kick_confirm">Đuổi %1$s?</string>
-    <string name="together_ban_confirm">Cấm %1$s?</string>
+    <string name="together_kick_confirm">Đuổi %1$s</string>
+    <string name="together_ban_confirm">Cấm %1$s</string>
     <string name="remove_from_history">Xóa khỏi lịch sử</string>
     <string name="remove_from_playlist">Xóa khỏi danh sách phát</string>
     <string name="remove_from_queue">Xóa khỏi Queue</string>
@@ -151,7 +151,7 @@
     <string name="media_id">ID phương tiện</string>
     <string name="mime_type">Loại MIME</string>
     <string name="codecs">Codec</string>
-    <string name="bitrate">Bitrate</string>
+    <string name="bitrate">Tốc độ bit</string>
     <string name="sample_rate">Tần số mẫu</string>
     <string name="loudness">Độ to</string>
     <string name="volume">Âm lượng</string>
@@ -234,7 +234,7 @@
     <string name="palette_arctic_blue">Bắc Cực</string>
     <string name="palette_midnight_navy">Đêm khuya</string>
     <string name="palette_sky_blue">Xanh trời</string>
-    <string name="palette_cobalt_blue">Cobalt</string>
+    <string name="palette_cobalt_blue">Xanh Coban</string>
     <string name="palette_electric_blue">Xanh Điện</string>
     <string name="palette_emerald_green">Xanh Ngọc</string>
     <string name="palette_teal_wave">Xanh Teal</string>
@@ -253,7 +253,7 @@
     <string name="palette_lavender_dream">Oải Hương</string>
     <string name="palette_grape_purple">Tím nho</string>
     <string name="palette_violet">Tím</string>
-    <string name="palette_amethyst">Amethyst</string>
+    <string name="palette_amethyst">Thạch anh tím</string>
     <string name="palette_ultra_violet">Tím Cực</string>
     <string name="palette_cherry_blossom">Anh Đào</string>
     <string name="palette_rose_quartz">Thạch Anh Hồng</string>
@@ -262,15 +262,15 @@
     <string name="palette_blush">Hồng phấn</string>
     <string name="palette_coral">San hô</string>
     <string name="palette_bubblegum">Kẹo cao su</string>
-    <string name="palette_crimson_red">Crimson</string>
+    <string name="palette_crimson_red">Đỏ thẫm</string>
     <string name="palette_youtube_red">Đỏ YouTube</string>
     <string name="palette_wine_red">Đỏ rượu vang</string>
-    <string name="palette_ruby_red">Ruby</string>
+    <string name="palette_ruby_red">Đỏ ruby</string>
     <string name="palette_scarlet">Đỏ tươi</string>
     <string name="palette_charcoal">Than đá</string>
     <string name="palette_silver">Bạc</string>
     <string name="palette_slate">Đá phiến</string>
-    <string name="palette_graphite">Graphite</string>
+    <string name="palette_graphite">Graphit</string>
     <string name="palette_terracotta">Gạch nung</string>
     <string name="palette_coffee">Cà phê</string>
     <string name="palette_mocha">Mocha</string>
@@ -364,7 +364,7 @@
     <string name="audio_quality_auto">Tự động</string>
     <string name="audio_quality_high">Cao</string>
     <string name="audio_quality_low">Thấp</string>
-    <string name="queue">Queue</string>
+    <string name="queue">Hàng chờ</string>
     <string name="persistent_queue">Queue liên tục</string>
     <string name="persistent_queue_desc">Khôi phục queue cuối cùng khi ứng dụng khởi động</string>
     <string name="skip_silence">Bỏ qua im lặng</string>
@@ -396,9 +396,9 @@
     <string name="eq_bass_boost">Bass Boost</string>
     <string name="eq_virtualizer">Virtualizer</string>
     <string name="storage">Lưu trữ</string>
-    <string name="smart_trimmer">Smart Trimmer</string>
+    <string name="smart_trimmer">Cắt thông minh</string>
     <string name="smart_trimmer_description">Smart Trimmer tự động quản lý cache hình ảnh và bài hát, dọn dẹp các mục cũ để tiết kiệm dung lượng.</string>
-    <string name="cache">Cache</string>
+    <string name="cache">Bộ đệm</string>
     <string name="image_cache">Cache hình ảnh</string>
     <string name="song_cache">Cache bài hát</string>
     <string name="max_cache_size">Kích thước cache tối đa</string>
@@ -409,7 +409,7 @@
     <string name="max_song_cache_size">Kích thước cache bài hát tối đa</string>
     <string name="clear_song_cache">Xóa cache bài hát</string>
     <string name="clear_lyrics_cache">Xóa bộ nhớ đệm lời bài hát</string>
-    <string name="clear_lyrics_cache_confirm">Bạn có chắc chắn muốn xóa tất cả bộ nhớ đệm lời bài hát không?</string>
+    <string name="clear_lyrics_cache_confirm">Bạn có chắc chắn muốn xóa tất cả bộ nhớ đệm lời bài hát không</string>
     <string name="paxsenix_stats">Thống kê API Paxsenix</string>
     <string name="uptime">Thời gian hoạt động</string>
     <string name="total_requests">Tổng số yêu cầu</string>
@@ -420,11 +420,11 @@
     <string name="listen_history">Lịch sử nghe</string>
     <string name="pause_listen_history">Tạm dừng lịch sử nghe</string>
     <string name="clear_listen_history">Xóa lịch sử nghe</string>
-    <string name="clear_listen_history_confirm">Bạn có chắc chắn muốn xóa tất cả lịch sử nghe không?</string>
+    <string name="clear_listen_history_confirm">Bạn có chắc chắn muốn xóa tất cả lịch sử nghe không</string>
     <string name="search_history">Lịch sử tìm kiếm</string>
     <string name="pause_search_history">Tạm dừng lịch sử tìm kiếm</string>
     <string name="clear_search_history">Xóa lịch sử tìm kiếm</string>
-    <string name="clear_search_history_confirm">Bạn có chắc chắn muốn xóa tất cả lịch sử tìm kiếm không?</string>
+    <string name="clear_search_history_confirm">Bạn có chắc chắn muốn xóa tất cả lịch sử tìm kiếm không</string>
     <string name="use_login_for_browse_desc">Điều này có thể ảnh hưởng đến nội dung bạn thấy, ví dụ như hiển thị album premium khi đăng nhập bằng tài khoản Premium</string>
     <string name="disable_screenshot">Tắt chụp màn hình</string>
     <string name="disable_screenshot_desc">Khi tùy chọn này được bật, chụp màn hình và chế độ xem ứng dụng trong Ứng dụng gần đây sẽ bị tắt.</string>
@@ -499,7 +499,7 @@
     <string name="discord_show_when_paused_desc">Nếu được bật, Rich Presence sẽ vẫn hiển thị khi tạm dừng với biểu tượng tạm dừng. Nếu tắt, RPC sẽ biến mất khi tạm dừng.</string>
     <string name="discord_paused">Đã tạm dừng</string>
     <string name="logout_confirm_title">Xác nhận đăng xuất</string>
-    <string name="logout_confirm_message">Bạn có chắc chắn muốn đăng xuất Discord không?</string>
+    <string name="logout_confirm_message">Bạn có chắc chắn muốn đăng xuất Discord không</string>
     <string name="logout_confirm_yes">Đăng xuất</string>
     <string name="logout_confirm_no">Hủy</string>
     <string name="experiment_settings">Cài đặt Thử nghiệm</string>
@@ -513,7 +513,7 @@
     <string name="description_show_nerd_stats">Hiển thị thông số phát nhạc thời gian thực (codec, bitrate, buffer)</string>
     <string name="display_codec_on_player">Hiển thị Codec trên Trình phát</string>
     <string name="description_display_codec_on_player">Hiển thị thông tin codec âm thanh hiện tại trên trình phát</string>
-    <string name="nerd_stats">Nerd Stats</string>
+    <string name="nerd_stats">Thống kê chuyên sâu</string>
     <string name="track_label">Bài hát</string>
     <string name="no_track_playing">Không có bài hát nào đang phát</string>
     <string name="codec_label">Codec</string>
@@ -654,7 +654,7 @@
     <string name="slider_style_standard">Tiêu chuẩn</string>
     <string name="slider_style_wavy">Gợn sóng</string>
     <string name="slider_style_thick">Dày</string>
-    <string name="slider_style_circular">Circular</string>
+    <string name="slider_style_circular">Hình tròn</string>
     <string name="slider_style_simple">Đơn giản</string>
     <string name="playback_confirmation_required">Cần xác nhận phát lại</string>
     <string name="playback_requires_youtube_music_confirmation">Xác nhận phát lại trong YouTube Music, sau đó quay lại DevScout Music.</string>
@@ -707,8 +707,6 @@
     <string name="playlist_suggestion_source_title">Danh sách nhạc tiêu đề</string>
     <string name="playlist_suggestion_source_content">Nội dung danh sách nhạc</string>
     <string name="playlist_suggestion_source_both">Danh sách phát tiêu đề và nội dung</string>
-    <string name="aod_mode">Chế độ AOD</string>
-    <string name="aod_mode_exit">Thoát AOD</string>
     <string name="error_malformed_stream">Lỗi nguồn</string>
     <string name="support_development_title">Hỗ trợ phát triển</string>
     <string name="support_development_message">Chào mọi người! Tôi là rukamori, nhà phát triển của DevScout Music. Nếu DevScout Music đã trở thành một phần trong danh sách nghe nhạc hàng ngày của bạn, bạn có thể giúp dự án tiếp tục phát triển bằng cách quyên góp hoặc đánh dấu sao trên GitHub. Cảm ơn vì đã ủng hộ công sức của chúng tôi trong việc phát triển ứng dụng.</string>
@@ -732,7 +730,7 @@
     <string name="discord_login_description">Kết nối tài khoản Discord của bạn với OAuth để DevScout Music có thể xuất bản Rich Presence.</string>
     <string name="discord_open_authorization">Mở ủy quyền Discord</string>
     <string name="discord_platform_android">Android</string>
-    <string name="discord_platform_desktop">Desktop</string>
+    <string name="discord_platform_desktop">Máy tính để bàn</string>
     <string name="discord_platform_embedded">Nhúng</string>
     <string name="discord_platform_ios">iOS</string>
     <string name="discord_platform_ps4">PS4</string>
@@ -778,7 +776,7 @@
     <string name="remove_account">Xóa tài khoản</string>
     <string name="add_another_account">Thêm tài khoản khác</string>
     <string name="unsaved_account_dialog_title">Tài khoản chưa được lưu</string>
-    <string name="unsaved_account_dialog_text">Tài khoản hiện tại của bạn chưa được lưu. Bạn có muốn lưu trước khi thêm tài khoản khác không?</string>
+    <string name="unsaved_account_dialog_text">Tài khoản hiện tại của bạn chưa được lưu. Bạn có muốn lưu trước khi thêm tài khoản khác không</string>
     <string name="unsaved_account_dialog_cancel">Hủy đăng nhập</string>
     <string name="unsaved_account_dialog_no_thanks">Không cần đâu, cảm ơn</string>
     <string name="unsaved_account_dialog_save_yes">Có, hãy lưu tài khoản hiện tại</string>
@@ -812,7 +810,7 @@
     <string name="hide_playlist">Ẩn danh sách phát</string>
     <string name="unhide_playlist">Bỏ ẩn danh sách phát</string>
     <string name="show_hidden_playlists">Hiện ẩn</string>
-    <string name="hide_playlist_confirm">Ẩn \u0022%1$s\u0022 khỏi thư viện?</string>
+    <string name="hide_playlist_confirm">Ẩn \u0022%1$s\u0022 khỏi thư viện</string>
     <string name="hidden_playlists">Danh sách phát đã ẩn</string>
     <string name="hidden_playlists_description">Danh sách phát đã ẩn khỏi thư viện sẽ xuất hiện tại đây</string>
     <string name="no_hidden_playlists">Không có danh sách phát đã ẩn</string>
@@ -845,7 +843,7 @@
     <string name="together_transfer_host">Chuyển quyền tổ chức</string>
     <string name="together_approve">Phê duyệt</string>
     <string name="together_reject">Từ chối</string>
-    <string name="together_transfer_host_confirm">Chuyển quyền tổ chức cho %1$s?</string>
+    <string name="together_transfer_host_confirm">Chuyển quyền tổ chức cho %1$s</string>
     <string name="together_participant_joined_notification">%1$s đã tham gia phòng</string>
     <string name="together_participant_left_notification">%1$s đã rời phòng</string>
     <string name="together_unknown_participant">Ai đó</string>
@@ -899,11 +897,6 @@
     <string name="lastfm_login_api_key_suspended">Khóa API đã bị đình chỉ.</string>
     <string name="lastfm_login_network_error">Lỗi mạng. Kiểm tra kết nối của bạn.</string>
     <string name="lastfm_login_failed">Đăng nhập thất bại. Thử lại.</string>
-    <string name="storage_cache_clear_warning">Giữ DevScout Music mở trong khi các tệp cache đang được xóa.</string>
-    <string name="storage_clear_song_cache_progress">Đang xóa cache bài hát...%1$d%%</string>
-    <string name="storage_clear_downloads_progress">Đang xóa tải xuống...%1$d%%</string>
-    <string name="storage_clear_image_cache_progress">Đang xóa cache hình ảnh...%1$d%%</string>
-    <string name="storage_clear_canvas_cache_progress">Đang xóa cache canvas...%1$d%%</string>
     <string name="updates_channel_warning_intro">DevScout Music cung cấp hai kênh tải xuống cho các bản dựng:</string>
     <string name="updates_channel_warning_stable_title">Bản dựng ổn định</string>
     <string name="updates_channel_warning_stable_source">Được phân phối qua GitHub Releases chính thức.</string>
@@ -996,7 +989,7 @@
     <string name="playlist_cover_updated">Ảnh bìa danh sách phát đã được cập nhật</string>
     <string name="playlist_cover_update_failed">Không thể cập nhật ảnh bìa danh sách phát</string>
     <string name="start_mix">Bắt đầu bản phối</string>
-    <string name="remove_from_library_confirm">Xoá \"%1$s\" khỏi thư viện của bạn?</string>
+    <string name="remove_from_library_confirm">Xoá \"%1$s\" khỏi thư viện của bạn</string>
     <string name="refetch_canvas">Tải lại Canvas</string>
     <string name="canvas_refetch_failed">Không thể tải lại Canvas động</string>
     <string name="custom_background_subtitle">Xem trước và điều chỉnh máy phát và nền lời bài hát</string>
@@ -1057,7 +1050,68 @@
     <string name="ai_content_filter_list_counts">Độ tin cậy cao: %1$d · Độ tin cậy trung bình: %2$d</string>
     <string name="ai_content_filter_source">Về AiSList</string>
     <string name="ai_content_filter_source_summary">Dữ liệu kênh do cộng đồng duy trì từ AiSlopList.com</string>
+    <string name="remove_download_confirm">Bạn có chắc chắn muốn xóa mục đã tải xuống này không? Hành động này không thể hoàn tác.</string>
+    <string name="remove_download_section_confirm">Bạn có chắc chắn muốn xóa tất cả mục đã tải xuống trong phần này không? Hành động này không thể hoàn tác.</string>
+    <string name="ai_content_filter_updated">Danh sách kênh AI đã được cập nhật</string>
+    <string name="ai_content_filter_update_failed">Không thể cập nhật danh sách kênh AI. Danh sách cũ sẽ vẫn hoạt động.</string>
+    <string name="export_logs_failed">Unable to export logs</string>
+    <string name="export">Export</string>
+    <string name="updates_subtitle_canary">Canary releases and recent development commits</string>
+    <string name="enable_update_notification_channel_desc">Get notified when a new release is available on the selected channel</string>
+    <string name="channel_canary">Canary</string>
+    <string name="updates_canary_hosting_description">Canary releases are published automatically from the latest development branch.</string>
+    <string name="updates_channel_warning_canary_title">Canary releases</string>
+    <string name="updates_channel_warning_canary_risk">Canary releases may include experimental features, unfinished changes, or temporary regressions.</string>
+    <string name="updates_channel_warning_canary_unstable">Canary releases are provided for testing and early access only.\nStability, compatibility, and functionality are not guaranteed.</string>
+    <string name="updates_channel_warning_canary_acknowledgement">Note: downloading directly from GitHub bypasses any additional screening performed by the store you might have originally installed the app from.\nBy continuing, you acknowledge that Canary releases may be unstable and use them at your own risk.</string>
+    <string name="updates_canary_channel_confirmation">Switch to the Canary channel to receive development releases.\n\nCanary releases are published automatically from the latest development branch.\nNote: downloading directly from GitHub bypasses any additional screening performed by the store you might have originally installed the app from.</string>
+    <string name="downloads">Downloads</string>
+    <string name="download_in_progress">In progress</string>
+    <string name="no_downloads">No downloaded music yet</string>
+    <string name="no_downloads_in_progress">No downloads in progress</string>
+    <string name="pause_download">Pause</string>
+    <string name="resume_download">Resume</string>
+    <string name="download_speed">%1$s/s</string>
+    <string name="download_progress_summary">%1$d%% · %2$s/s</string>
+    <string name="downloads_load_failed">CouldnTt load downloads</string>
+    <string name="download_action_failed">CouldnTt update the download</string>
+    <string name="download_failed_state">Download failed</string>
+    <string name="search_downloads">Search downloads</string>
+    <string name="no_matching_downloads">No matching downloads</string>
+    <string name="onboarding_login_title">Đồng bộ nghe nhạc</string>
+    <string name="onboarding_login_subtitle">Đăng nhập để đồng bộ thư viện và lịch sử nghe trên các thiết bị và nhận trải nghiệm phát nhạc đáng tin cậy hơn.</string>
+    <string name="onboarding_login_optional">Tùy chọn. Bạn có thể đăng nhập sau trong Cài đặt.</string>
+    <string name="onboarding_login_benefits_title">Tài khoản giúp DevScout Music tốt hơn</string>
+    <string name="onboarding_login_library_title">Đồng bộ thư viện</string>
+    <string name="onboarding_login_library_desc">Giữ nhạc và danh sách phát của bạn luôn sẵn sàng ở mọi nơi.</string>
+    <string name="onboarding_login_history_title">Giữ lịch sử nghe</string>
+    <string name="onboarding_login_history_desc">Tiếp tục hành trình nghe nhạc trên các thiết bị với lịch sử đã đồng bộ.</string>
+    <string name="onboarding_login_playback_title">Phát nhạc tốt hơn</string>
+    <string name="onboarding_login_playback_desc">Dùng thông tin tài khoản để có trải nghiệm phát nhạc đáng tin cậy hơn.</string>
+    <string name="onboarding_login_skip">Bỏ qua ngay</string>
+    <string name="onboarding_permission_device_audio_capture_title">On-device audio recognition</string>
+    <string name="onboarding_permission_device_audio_capture_desc">Recognize music playing in other apps without using the microphone. Android asks for screen and audio capture approval each time, DevScout Music processes audio only.</string>
+    <string name="scheduled_backup">Scheduled auto backup</string>
+    <string name="scheduled_backup_enabled">Enable scheduled backup</string>
+    <string name="scheduled_backup_enabled_description">Backups run automatically using the schedule below.</string>
+    <string name="scheduled_backup_disabled_description">Automatic backups are paused.</string>
+    <string name="scheduled_backup_frequency">Backup schedule</string>
+    <string name="scheduled_backup_frequency_description">Choose how often DevScout Music creates a backup.</string>
+    <string name="scheduled_backup_daily">Daily</string>
+    <string name="scheduled_backup_weekly">Weekly</string>
+    <string name="scheduled_backup_monthly">Monthly</string>
+    <string name="scheduled_backup_custom">Custom</string>
+    <string name="scheduled_backup_custom_title">Choose backup date</string>
+    <string name="scheduled_backup_custom_date">Next backup: %1$s</string>
+    <string name="scheduled_backup_directory">Backup directory</string>
+    <string name="scheduled_backup_directory_description">Choose a folder to enable scheduled backups.</string>
+    <string name="scheduled_backup_overwrite">Overwrite existing backup</string>
+    <string name="scheduled_backup_overwrite_description">Keep one current backup instead of creating a dated history.</string>
+    <string name="scheduled_backup_directory_saved">Backup directory saved</string>
+    <string name="scheduled_backup_load_failed">Scheduled backup settings could not be loaded</string>
+    <string name="scheduled_backup_update_failed">Scheduled backup settings could not be saved</string>
+    <string name="gatekeeper_connection_blocked">Connection blocked by DevScout Music Remote. This app could not be verified as an official DevScout Music build. Install an official build from https://github.com/pangeranpramuka-hub/DevScoutMusic.</string>
+    <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
+    <string name="new_releases_unavailable">New releases are temporarily unavailable</string>
+    <string name="new_releases_load_failed">DevScout Music could not load this YouTube Music section. Try again later.</string>
 </resources>
-
-
-

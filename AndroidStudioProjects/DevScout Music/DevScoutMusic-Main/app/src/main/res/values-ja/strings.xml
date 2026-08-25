@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">ホーム</string>
     <string name="songs">歌</string>
@@ -108,8 +108,8 @@
     <string name="liked_songs">好きな曲</string>
     <string name="downloaded_songs">ダウンロードした曲</string>
     <string name="playlist_is_empty">プレイリストが空です</string>
-    <string name="remove_download_playlist_confirm">本当にすべての「%s\"」プレイリスト曲をダウンロード済み曲ストレージから削除してもよろしいですか?</string>
-    <string name="delete_playlist_confirm">本当にプレイリスト「%s\"」を削除してもよろしいですか?</string>
+    <string name="remove_download_playlist_confirm">本当にすべての「%s\"」プレイリスト曲をダウンロード済み曲ストレージから削除してもよろしいですか</string>
+    <string name="delete_playlist_confirm">本当にプレイリスト「%s\"」を削除してもよろしいですか</string>
     <string name="change_playlist_cover">プレイリストのカバーを変更する</string>
     <string name="remove_playlist_cover">カスタムカバーを取り外します</string>
     <string name="playlist_cover_updated">プレイリストのカバーを更新しました</string>
@@ -155,12 +155,12 @@
     <string name="add_to_queue">キューに追加</string>
     <string name="add_to_library">ライブラリに追加</string>
     <string name="remove_from_library">ライブラリから削除</string>
-    <string name="remove_from_library_confirm">\u0022%1$s\u0022 をライブラリから削除しますか?</string>
+    <string name="remove_from_library_confirm">\u0022%1$s\u0022 をライブラリから削除しますか</string>
     <string name="action_download">ダウンロード</string>
     <string name="downloading">ダウンロード中</string>
     <string name="remove_download">ダウンロードを削除する</string>
-    <string name="remove_download_confirm">このダウンロードしたアイテムを削除してもよろしいですか?この操作は元に戻すことができません。</string>
-    <string name="remove_download_section_confirm">このセクションのすべてのダウンロードを削除してもよろしいですか?この操作は元に戻すことができません。</string>
+    <string name="remove_download_confirm">このダウンロードしたアイテムを削除してもよろしいですかこの操作は元に戻すことができません。</string>
+    <string name="remove_download_section_confirm">このセクションのすべてのダウンロードを削除してもよろしいですかこの操作は元に戻すことができません。</string>
     <string name="download_progress_percent">%1$d%%</string>
     <string name="import_playlist">プレイリストをインポートする</string>
     <string name="import_failed">インポートに失敗しました</string>
@@ -183,7 +183,7 @@
     <string name="hide_playlist">プレイリストを非表示にする</string>
     <string name="unhide_playlist">プレイリストを再表示する</string>
     <string name="show_hidden_playlists">非表示を表示</string>
-    <string name="hide_playlist_confirm">\u0022%1$s\u0022 をライブラリから非表示にしますか?</string>
+    <string name="hide_playlist_confirm">\u0022%1$s\u0022 をライブラリから非表示にしますか</string>
     <string name="together_participants">参加者</string>
     <string name="together_connected_count">%1$d が接続されました</string>
     <string name="together_role_host">ホスト</string>
@@ -197,8 +197,8 @@
     <string name="together_approve">承認する</string>
     <string name="together_reject">拒否する</string>
     <string name="together_kick_confirm">%1$sをキックしますか？</string>
-    <string name="together_ban_confirm">%1$sを禁止しますか?</string>
-    <string name="together_transfer_host_confirm">ホストの所有権を %1$s に譲渡しますか?</string>
+    <string name="together_ban_confirm">%1$sを禁止しますか</string>
+    <string name="together_transfer_host_confirm">ホストの所有権を %1$s に譲渡しますか</string>
     <string name="together_requesting_song_change">ホストに曲の変更をリクエストしています\u2026</string>
     <string name="together_song_change_failed">ソングチェンジは適用されません。もう一度試してください。</string>
     <string name="together_participant_joined_notification">%1$s がルームに参加しました</string>
@@ -481,7 +481,7 @@
     <string name="default_open_tab">デフォルトで開いているタブ</string>
     <string name="lyrics_animation_style">歌詞アニメーション風</string>
     <string name="lyrics_mode">歌詞モード</string>
-    <string name="lyrics_mode_v2">V2 Legacy</string>
+    <string name="lyrics_mode_v2">V2 レガシー</string>
     <string name="lyrics_mode_enhanced">強化された</string>
     <string name="lyrics_animation_style_v2_only">V2 歌詞モードでのみ利用可能</string>
     <string name="lyrics_line_spacing">歌詞の行間</string>
@@ -641,7 +641,7 @@
     <string name="max_song_cache_size">最大曲キャッシュサイズ</string>
     <string name="clear_song_cache">曲のキャッシュをクリアする</string>
     <string name="clear_lyrics_cache">歌詞キャッシュをクリアする</string>
-    <string name="clear_lyrics_cache_confirm">すべての歌詞キャッシュをクリアしてもよろしいですか?</string>
+    <string name="clear_lyrics_cache_confirm">すべての歌詞キャッシュをクリアしてもよろしいですか</string>
     <string name="paxsenix_stats">Paxsenix API 統計</string>
     <string name="uptime">稼働時間</string>
     <string name="total_requests">総リクエスト数</string>
@@ -658,11 +658,11 @@
     <string name="listen_history">視聴履歴</string>
     <string name="pause_listen_history">聴取履歴を一時停止する</string>
     <string name="clear_listen_history">視聴履歴をクリアする</string>
-    <string name="clear_listen_history_confirm">すべての聴取履歴をクリアしてもよろしいですか?</string>
+    <string name="clear_listen_history_confirm">すべての聴取履歴をクリアしてもよろしいですか</string>
     <string name="search_history">検索履歴</string>
     <string name="pause_search_history">検索履歴を一時停止する</string>
     <string name="clear_search_history">検索履歴をクリアする</string>
-    <string name="clear_search_history_confirm">すべての検索履歴をクリアしてもよろしいですか?</string>
+    <string name="clear_search_history_confirm">すべての検索履歴をクリアしてもよろしいですか</string>
     <string name="use_login_for_browse_desc">これは、表示されるコンテンツに影響を与える可能性があり、たとえば、プレミアム アカウントでログインしている場合はプレミアム限定のアルバムが表示されます。</string>
     <string name="disable_screenshot">スクリーンショットを無効にする</string>
     <string name="disable_screenshot_desc">このオプションがオンの場合、スクリーンショットと最近のアプリの表示が無効になります。</string>
@@ -817,7 +817,7 @@
     <string name="discord_show_when_paused_desc">有効にすると、一時停止中もリッチ プレゼンスが一時停止アイコンで表示されたままになります。無効にすると、一時停止時に RPC が表示されなくなります。</string>
     <string name="discord_paused">一時停止中</string>
     <string name="logout_confirm_title">ログアウトの確認</string>
-    <string name="logout_confirm_message">Discord からログアウトしてもよろしいですか?</string>
+    <string name="logout_confirm_message">Discord からログアウトしてもよろしいですか</string>
     <string name="logout_confirm_yes">ログアウト</string>
     <string name="logout_confirm_no">キャンセル</string>
     <string name="experiment_settings">実験設定</string>
@@ -880,7 +880,7 @@
     <string name="updates_subtitle_stable">安定版リリースとリリースノート</string>
     <string name="updates_subtitle_canary">Canary リリースと最近の開発コミット</string>
     <string name="current_version">現在のバージョン</string>
-    <string name="latest_version_format">Latest: %s</string>
+    <string name="latest_version_format">最新: %s</string>
     <string name="updates_status_checking">最新リリースの確認</string>
     <string name="updates_status_current">利用可能な最新リリースを使用しています</string>
     <string name="enable_update_notification">更新通知を有効にする</string>
@@ -1044,7 +1044,7 @@
     <string name="together_activity_song_skipped">%1$s は %2$s にスキップされました</string>
     <string name="together_activity_queue_updated">%1$s がキューを変更しました</string>
     <string name="together_activity_playback_state_changed">%1$s は再生状態を変更しました</string>
-    <string name="together_activity_error">Error: %1$s</string>
+    <string name="together_activity_error">エラー: %1$s</string>
     <string name="got_it">分かりました</string>
     <string name="together_dont_show_again">これを二度と表示しないでください</string>
     <string name="together_welcome_title">DevScout Music Music Together へようこそ</string>
@@ -1062,7 +1062,7 @@
     <string name="po_token_player">POトークン（プレイヤー）</string>
     <string name="visitor_data">訪問者データ</string>
     <string name="generated_tokens">生成されたトークン</string>
-    <string name="regenerate">Re-generate</string>
+    <string name="regenerate">再生成</string>
     <string name="regenerate_token">トークンを再生成する</string>
     <string name="source_url">ソースURL</string>
     <string name="source_url_placeholder">https://youtube.com/account</string>
@@ -1080,7 +1080,7 @@
     <string name="remove_account">アカウントを削除する</string>
     <string name="add_another_account">別のアカウントを追加する</string>
     <string name="unsaved_account_dialog_title">アカウントが保存されていません</string>
-    <string name="unsaved_account_dialog_text">現在のアカウントはまだ保存されていません。別のアカウントを追加する前に保存しますか?</string>
+    <string name="unsaved_account_dialog_text">現在のアカウントはまだ保存されていません。別のアカウントを追加する前に保存しますか</string>
     <string name="unsaved_account_dialog_cancel">ログインをキャンセルする</string>
     <string name="unsaved_account_dialog_no_thanks">いいえ、ありがとう</string>
     <string name="unsaved_account_dialog_save_yes">はい、現在のアカウントを保存します</string>
@@ -1109,6 +1109,18 @@
     <string name="scheduled_backup_load_failed">スケジュールされたバックアップ設定をロードできませんでした</string>
     <string name="scheduled_backup_update_failed">スケジュールされたバックアップ設定を保存できませんでした</string>
     <string name="gatekeeper_connection_blocked">DevScout Music Remote によって接続がブロックされました。このアプリは正式な DevScout Music ビルドとして検証できませんでした。 https://github.com/rukamori/DevScout Music または https://t.me/DevScout MusicGC から公式ビルドをインストールします。</string>
+    <string name="onboarding_login_title">再生を同期</string>
+    <string name="onboarding_login_subtitle">ログインしてライブラリと再生履歴を端末間で同期し、より安定した再生を体験できます。</string>
+    <string name="onboarding_login_optional">任意です。後で設定からログインできます。</string>
+    <string name="onboarding_login_benefits_title">アカウントでDevScout Musicが向上</string>
+    <string name="onboarding_login_library_title">ライブラリを同期</string>
+    <string name="onboarding_login_library_desc">保存した音楽とプレイリストをどこでも利用できます。</string>
+    <string name="onboarding_login_history_title">再生履歴を維持</string>
+    <string name="onboarding_login_history_desc">端末間で再生履歴を同期し、再開しやすくします。</string>
+    <string name="onboarding_login_playback_title">より良い再生</string>
+    <string name="onboarding_login_playback_desc">アカウント情報を使ってより安定した再生体験を提供します。</string>
+    <string name="onboarding_login_skip">今はスキップ</string>
+    <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
+    <string name="new_releases_unavailable">新着リリースは現在利用できません</string>
+    <string name="new_releases_load_failed">DevScout Musicがこの YouTube Music セクションを読み込めませんでした。後でもう一度お試しください。</string>
 </resources>
-
-

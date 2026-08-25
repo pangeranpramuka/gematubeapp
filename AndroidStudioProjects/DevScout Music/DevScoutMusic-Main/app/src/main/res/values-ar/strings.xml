@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="home">الرئيسية</string>
     <string name="songs">الأغاني</string>
@@ -354,7 +354,7 @@
     <string name="eq_virtualizer">المؤثر المكاني</string>
     <string name="storage">التخزين</string>
     <string name="smart_trimmer">أداة القص الذكية</string>
-    <string name="smart_trimmer_description">يقوم القص الذكي بإدارة ذاكرة التخزين المؤقت للصور والأغاني بشكل ديناميكي؜ وحذف الإدخالات القديمة لتوفير مساحة على القرص.</string>
+    <string name="smart_trimmer_description">يقوم القص الذكي بإدارة ذاكرة التخزين المؤقت للصور والأغاني بشكل ديناميكي  وحذف الإدخالات القديمة لتوفير مساحة على القرص.</string>
     <string name="cache">ذاكرة التخزين المؤقت</string>
     <string name="image_cache">ذاكرة التخزين المؤقت للصور</string>
     <string name="song_cache">ذاكرة التخزين المؤقت للأغاني</string>
@@ -375,9 +375,9 @@
     <string name="pause_search_history">إيقاف سجل البحث مؤقتًا</string>
     <string name="clear_search_history">حذف سجل البحث</string>
     <string name="clear_search_history_confirm">أنت متأكد أنك تريد مسح سجل البحث بالكامل؟</string>
-    <string name="use_login_for_browse_desc">قد يؤثر هذا على المحتوى الذي يظهر لك؜ مثل عرض ألبومات حصرية للمشتركين في حال تسجيل الدخول بحساب بريميوم</string>
+    <string name="use_login_for_browse_desc">قد يؤثر هذا على المحتوى الذي يظهر لك  مثل عرض ألبومات حصرية للمشتركين في حال تسجيل الدخول بحساب بريميوم</string>
     <string name="disable_screenshot">تعطيل لقطات الشاشة</string>
-    <string name="disable_screenshot_desc">عند تفعيل هذا الخيار؜ يتم تعطيل لقطات الشاشة وعرض التطبيق في قائمة التطبيقات الحديثة.</string>
+    <string name="disable_screenshot_desc">عند تفعيل هذا الخيار  يتم تعطيل لقطات الشاشة وعرض التطبيق في قائمة التطبيقات الحديثة.</string>
     <string name="enable_lrclib">تفعيل مزود كلمات الأغاني LrcLib</string>
     <string name="enable_kugou">تفعيل مزود كلمات الأغاني KuGou</string>
     <string name="hide_explicit">إخفاء المحتوى الحساس</string>
@@ -444,7 +444,7 @@
     <string name="refresh">تحديث</string>
     <string name="description_refresh">التحديث اليدوي لديسكورد Rich Presence</string>
     <string name="discord_show_when_paused">إظهار RPC عند الإيقاف المؤقت</string>
-    <string name="discord_show_when_paused_desc">في حال تفعيل هذا الخيار؜ ستظل Rich Presence ظاهرة أثناء الإيقاف المؤقت مع ظهور أيقونة الإيقاف المؤقت. أما إذا تم تعطيله؜ فسيتم إخفاء Rich Presence عند الإيقاف المؤقت.</string>
+    <string name="discord_show_when_paused_desc">في حال تفعيل هذا الخيار  ستظل Rich Presence ظاهرة أثناء الإيقاف المؤقت مع ظهور أيقونة الإيقاف المؤقت. أما إذا تم تعطيله  فسيتم إخفاء Rich Presence عند الإيقاف المؤقت.</string>
     <string name="discord_paused">إيقاف مؤقت</string>
     <string name="logout_confirm_title">تأكيد تسجيل الخروج</string>
     <string name="logout_confirm_message">هل أنت متأكد من أنك تريد تسجيل الخروج من ديسكورد؟</string>
@@ -458,7 +458,7 @@
     <string name="experimental_features">خيارات تجريبية</string>
     <string name="no_logs">لا توجد سجلات</string>
     <string name="show_nerd_stats">عرض الإحصائيات المتقدمة</string>
-    <string name="description_show_nerd_stats">عرض إحصائيات التشغيل المباشرة (الترميز؜ معدل البت؜ التخزين المؤقت)</string>
+    <string name="description_show_nerd_stats">عرض إحصائيات التشغيل المباشرة (الترميز  معدل البت  التخزين المؤقت)</string>
     <string name="display_codec_on_player">عرض الترميز في المشغّل</string>
     <string name="nerd_stats">الإحصائيات المتقدمة</string>
     <string name="track_label">المقطع</string>
@@ -506,10 +506,10 @@
     <string name="sort_by_most_played">الأكثر تشغيلًا</string>
     <string name="no_matching_playlists">لم يتم العثور على قائمة تشغيل متطابقة</string>
     <string name="blur_intensity">مستوى التمويه</string>
-    <string name="blur_intensity_value">%1$d dp</string>
+    <string name="blur_intensity_value">%1$d نقطة</string>
     <string name="playback_confirmation_required">يُلزم تأكيد المشغل</string>
     <string name="playback_login_refresh_required">تحديث تسجيل الدخول إلى YouTube Music</string>
-    <string name="playback_requires_youtube_music_login_refresh">قم بتحديث بيانات تسجيل الدخول الخاصة بك على YouTube Music؜ ثم عد إلى DevScout Music.</string>
+    <string name="playback_requires_youtube_music_login_refresh">قم بتحديث بيانات تسجيل الدخول الخاصة بك على YouTube Music  ثم عد إلى DevScout Music.</string>
     <string name="top_results">أفضل النتائج</string>
     <string name="most_played_badge">الأكثر تشغيلًا</string>
     <string name="play_all">تشغيل الكل</string>
@@ -527,7 +527,7 @@
     <string name="library_top_mixes_ai_not_configured_title">قم بتكوين الذكاء الاصطناعي لإنشاء القوائم</string>
     <string name="library_top_mixes_ai_not_configured_desc">يلزم ربط الذكاء الاصطناعي قبل أن يتمكن DevScout Music من إنشاء القوائم المختلطة الشخصية.</string>
     <string name="library_top_mixes_no_recent_history_title">لا توجد قائمة استماع حديثة بعد</string>
-    <string name="library_top_mixes_no_recent_history">استمع إلى المزيد من الأغاني؜ ثم حدّث لإنشاء قوائم الذكاء الاصطناعي من سجلك الحديث.</string>
+    <string name="library_top_mixes_no_recent_history">استمع إلى المزيد من الأغاني  ثم حدّث لإنشاء قوائم الذكاء الاصطناعي من سجلك الحديث.</string>
     <string name="library_top_mixes_no_valid_mixes">لم يرجع الذكاء الاصطناعي أي قوائم قابلة للتشغيل من سجلك الحديث.</string>
     <string name="library_top_mixes_failed">فشل إنشاء القوائم المختلطة</string>
     <string name="your_playlists">قوائم تشغيلك</string>
@@ -645,8 +645,6 @@
     <string name="together_unknown_participant">شخص ما</string>
     <string name="removed_song_from_queue">تمت إزالة \"%s\" من قائمة الانتظار</string>
     <string name="removed_n_songs_from_queue">تمت إزالة %d أغنية من قائمة الانتظار</string>
-    <string name="aod_mode">وضع AOD</string>
-    <string name="aod_mode_exit">الخروج من AOD</string>
     <string name="tempo">سرعة الإيقاع</string>
     <string name="pitch">حدّة الصوت</string>
     <string name="pitch_mode_semitones_short">نصف درجة</string>
@@ -660,7 +658,7 @@
     <string name="lyrics_searching_providers">جاري البحث في المزودين</string>
     <string name="lyrics_search_still_searching">ما زال البحث جاريًا</string>
     <string name="lyrics_search_results_count">%1$d نتيجة</string>
-    <string name="lyrics_search_result_stats">%1$d أسطر؜ %2$d حرفًا</string>
+    <string name="lyrics_search_result_stats">%1$d أسطر  %2$d حرفًا</string>
     <string name="unsupported_language">اللغة غير مدعومة: %1$s</string>
     <string name="source">المصدر</string>
     <string name="lyrics_word_sync">مزامنة الكلمات</string>
@@ -704,7 +702,7 @@
     <string name="custom_background_remove_image">إزالة الصورة</string>
     <string name="custom_background_adjustments">الضبط</string>
     <string name="custom_background_adjustments_description">ضبط الصورة في المعاينتين.</string>
-    <string name="custom_background_blur_value">%1$d dp</string>
+    <string name="custom_background_blur_value">%1$d نقطة</string>
     <string name="custom_background_scale_value">%1$d%%</string>
     <string name="custom_background_permission_error">تعذر على DevScout Music الاحتفاظ بصلاحية الوصول لهذه الصورة.</string>
     <string name="custom_background_permission_cleanup_error">تعذر تحرير صلاحية الوصول للصورة السابقة.</string>
@@ -733,9 +731,9 @@
     <string name="playback_error_cause">السبب</string>
     <string name="internet">الإنترنت</string>
     <string name="internet_warning_title">تحذير الأمان والاستخدام</string>
-    <string name="internet_warning_doh">يعمل DNS over HTTPS فقط إذا كان بلدك يحظر YouTube. إذا كان YouTube يحظر منطقتك نشطًا؜ ففكر في استخدام بروكسي أو VPN.</string>
-    <string name="internet_warning_proxy">يرجى استخدام البروكسيات التي تتأكد من أمانها فقط. البروكسيات المجانية مريحة لكنها ليست آمنة دائمًا؜ لذا كن حذرًا. لقد تم تحذيرك ولسنا مسؤولين عن أمانك.</string>
-    <string name="dns_over_https">DNS over HTTPS</string>
+    <string name="internet_warning_doh">يعمل DNS over HTTPS فقط إذا كان بلدك يحظر YouTube. إذا كان YouTube يحظر منطقتك نشطًا  ففكر في استخدام بروكسي أو VPN.</string>
+    <string name="internet_warning_proxy">يرجى استخدام البروكسيات التي تتأكد من أمانها فقط. البروكسيات المجانية مريحة لكنها ليست آمنة دائمًا  لذا كن حذرًا. لقد تم تحذيرك ولسنا مسؤولين عن أمانك.</string>
+    <string name="dns_over_https">DNS عبر HTTPS</string>
     <string name="dns_over_https_desc">استخدام DNS over HTTPS (DoH) لتحليل أسماء المضيفين</string>
     <string name="dns_provider">مزود DNS</string>
     <string name="dns_custom_url">عنوان URL مخصص لـ DNS DoH</string>
@@ -768,7 +766,7 @@
     <string name="audio_offload">تفريغ المعالجة الصوتية</string>
     <string name="audio_offload_desc">السماح للأجهزة المدعومة بتشغيل الصوت باستخدام فك التشفير المادي منخفض الطاقة. يتم تعطيل بعض ميزات معالجة الصوت.</string>
     <string name="pause_on_device_mute">إيقاف مؤقت عند مستوى صوت الجهاز 0</string>
-    <string name="pause_on_device_mute_desc">إيقاف مؤقت عند مستوى الصوت الصفر؜ وتوضيح محاولات التشغيل؜ والاستئناف عند زيادة مستوى الصوت</string>
+    <string name="pause_on_device_mute_desc">إيقاف مؤقت عند مستوى الصوت الصفر  وتوضيح محاولات التشغيل  والاستئناف عند زيادة مستوى الصوت</string>
     <string name="device_mute_recovery_volume">زيادة مستوى الصوت من 0</string>
     <string name="device_mute_recovery_volume_disabled">معطل</string>
     <string name="device_volume_zero_playback_paused">تم إيقاف التشغيل مؤقتًا لأن مستوى صوت الجهاز 0. ارفع مستوى الصوت للاستئناف.</string>
@@ -780,7 +778,7 @@
     <string name="eq_basic">بسيط</string>
     <string name="eq_advanced">متقدم</string>
     <string name="eq_basic_description">إعدادات مسبقة سريعة وتشكيل عام للنغمة</string>
-    <string name="eq_advanced_description">نطاقات دقيقة؜ وإدارة الكسب؜ والمؤثرات؜ والملفات الشخصية</string>
+    <string name="eq_advanced_description">نطاقات دقيقة  وإدارة الكسب  والمؤثرات  والملفات الشخصية</string>
     <string name="eq_presets_description">البدء من صوت محدد للجهاز</string>
     <string name="eq_preset_number">الإعداد المسبق %1$d</string>
     <string name="eq_profiles_description">الحفظ والاستيراد ومشاركة الإعدادات الكاملة</string>
@@ -825,7 +823,7 @@
     <string name="ai_content_filter_hide">إخفاء المحتوى المنشأ بالذكاء الاصطناعي</string>
     <string name="ai_content_filter_hide_summary">تصفية الأغاني والفيديوهات والألبومات والفنانين وقوائم التشغيل من قنوات الذكاء الاصطناعي مؤكدة الثقة في الرئيسية والبحث</string>
     <string name="ai_content_filter_moderate">تضمين القنوات متوسطة الثقة</string>
-    <string name="ai_content_filter_moderate_summary">إخفاء القنوات التي يُحتمل؜ ولكن غير مؤكد؜ استخدامها لمحتوى الذكاء الاصطناعي</string>
+    <string name="ai_content_filter_moderate_summary">إخفاء القنوات التي يُحتمل  ولكن غير مؤكد  استخدامها لمحتوى الذكاء الاصطناعي</string>
     <string name="ai_content_filter_update">تحديث قوائم القنوات</string>
     <string name="ai_content_filter_list_counts">ثقة عالية: %1$d · ثقة متوسطة: %2$d</string>
     <string name="ai_content_filter_source">حول AiSList</string>
@@ -833,13 +831,13 @@
     <string name="ai_content_filter_updated">تم تحديث قوائم قنوات الذكاء الاصطناعي</string>
     <string name="ai_content_filter_update_failed">تعذر تحديث قوائم قنوات الذكاء الاصطناعي. ستظل القوائم السابقة نشطة.</string>
     <string name="restore_success">تمت استعادة النسخة الاحتياطية بنجاح</string>
-    <string name="account_integrations_summary">Discord؜ Last.fm؜ Libre.fm؜ ListenBrainz</string>
-    <string name="discord_login_description">Connect your Discord account with OAuth so DevScout Music can publish Rich Presence.</string>
+    <string name="account_integrations_summary">Discord  Last.fm  Libre.fm  ListenBrainz</string>
+    <string name="discord_login_description">اربط حساب Discord عبر OAuth حتى يتمكن DevScout Music من نشر Rich Presence.</string>
     <string name="discord_open_authorization">فتح مصادقة Discord</string>
     <string name="discord_waiting_for_authorization">في انتظار مصادقة Discord...</string>
     <string name="discord_authorization_success">تم ربط حساب Discord</string>
     <string name="discord_authorization_failed">فشلت مصادقة Discord</string>
-    <string name="discord_account_ready">DevScout Music is ready to publish Rich Presence for your listening session.</string>
+    <string name="discord_account_ready">DevScout Music جاهز لنشر Rich Presence لجلسة الاستماع.</string>
     <string name="discord_reauthorize_required_title">انتهت جلسة Discord</string>
     <string name="discord_reauthorize_required_description">لا يمكن إظهار حالة الحضور حتى تقوم بمصادقة Discord مرة أخرى.</string>
     <string name="discord_reauthorize_action">إعادة المصادقة</string>
@@ -896,7 +894,7 @@
     <string name="discord_image_album_artwork">غلاف الألبوم</string>
     <string name="discord_image_artist_artwork">صورة الفنان</string>
     <string name="support_development_title">دعم التطوير</string>
-    <string name="support_development_message">Hey there! I\'m pange, the developer of DevScout Music. If DevScout Music has earned a place in your daily listening, you can help keep it moving forward by donating or starring the project on GitHub. Thanks for supporting the work behind the app.</string>
+    <string name="support_development_message">مرحبًا! أنا pange، مطور DevScout Music. إذا كان DevScout Music قد حاز على مكان في يومياتك الاستماع، يمكنك المساعدة في استمراره من خلال التبرع أو إضافة النجمة على GitHub. شكرًا لدعمك.</string>
     <string name="support_development_donate">تبرع لدعم التطوير</string>
     <string name="support_development_star">نجمة على GitHub</string>
     <string name="later">لاحقًا</string>
@@ -956,7 +954,7 @@
     <string name="updates_channel_warning_stable_source">موزعة عبر إصدارات GitHub الرسمية.</string>
     <string name="updates_channel_warning_stable_desc">هذه الإصدارات مختبرة وموصى بها لغالبية المستخدمين.</string>
     <string name="updates_channel_warning_canary_title">إصدارات Canary</string>
-    <string name="updates_channel_warning_canary_risk">قد تتضمن إصدارات Canary ميزات تجريبية؜ تغييرات غير مكتملة؜ أو تراجع مؤقت في الأداء.</string>
+    <string name="updates_channel_warning_canary_risk">قد تتضمن إصدارات Canary ميزات تجريبية  تغييرات غير مكتملة  أو تراجع مؤقت في الأداء.</string>
     <string name="updates_loading_commits">جاري تحميل التغييرات الأخيرة</string>
     <string name="updates_recent_commits_count">%1$d التغييرات الأخيرة</string>
     <string name="updates_no_commits">لم يتم العثور على تغييرات حديثة</string>
@@ -996,7 +994,7 @@
     <string name="onboarding_permissions_title">مراجعة الأذونات</string>
     <string name="onboarding_permissions_subtitle">امنح فقط ما تريده الآن. يمكنك المتابعة والسماح بالأذونات لاحقًا.</string>
     <string name="onboarding_community_title">ابقَ على اتصال</string>
-    <string name="onboarding_community_subtitle">تابع التطوير؜ وأبلغ عن المشاكل؜ أو ادعم DevScout Music.</string>
+    <string name="onboarding_community_subtitle">تابع التطوير  وأبلغ عن المشاكل  أو ادعم DevScout Music.</string>
     <string name="onboarding_finish">ابدأ الاستماع</string>
     <string name="onboarding_gms_variant">نسخة GMS</string>
     <string name="onboarding_foss_variant">نسخة FOSS</string>
@@ -1009,11 +1007,11 @@
     <string name="onboarding_permission_notifications_title">الإشعارات</string>
     <string name="onboarding_permission_notifications_desc">إظهار عناصر التحكم في التشغيل ونشاط الموسيقى في لوحة الإشعارات.</string>
     <string name="onboarding_permission_device_audio_capture_title">التعرف على الصوت على الجهاز</string>
-    <string name="onboarding_permission_device_audio_capture_desc">التعرف على الموسيقى المشغلة في التطبيقات الأخرى دون استخدام الميكروفون. يطلب Android الموافقة على التقاط الشاشة والصوت في كل مرة؜ ويعالج DevScout Music الصوت فقط.</string>
+    <string name="onboarding_permission_device_audio_capture_desc">التعرف على الموسيقى المشغلة في التطبيقات الأخرى دون استخدام الميكروفون. يطلب Android الموافقة على التقاط الشاشة والصوت في كل مرة  ويعالج DevScout Music الصوت فقط.</string>
     <string name="onboarding_permission_bluetooth_connect_title">اتصال الصوت عبر البلوتوث</string>
     <string name="onboarding_permission_bluetooth_connect_desc">الاتصال بأجهزة الصوت القريبة عبر البلوتوث للتشغيل.</string>
     <string name="onboarding_permission_network_title">الوصول إلى الشبكة</string>
-    <string name="onboarding_permission_network_desc">بث الموسيقى؜ تحميل الغلاف؜ والتحقق من محتوى التطبيق عبر الإنترنت.</string>
+    <string name="onboarding_permission_network_desc">بث الموسيقى  تحميل الغلاف  والتحقق من محتوى التطبيق عبر الإنترنت.</string>
     <string name="onboarding_permission_playback_service_title">التشغيل في الخلفية</string>
     <string name="onboarding_permission_playback_service_desc">الحفاظ على تشغيل الموسيقى بموثوقية عندما يكون DevScout Music في الخلفية.</string>
     <string name="onboarding_permission_audio_settings_title">إعدادات الصوت والاهتزاز</string>
@@ -1060,7 +1058,7 @@
     <string name="together_server_unreachable">تعذر الوصول إلى الخادم</string>
     <string name="together_connection_timed_out">انتهت مهلة الاتصال</string>
     <string name="together_session_not_found">لم يتم العثور على الجلسة</string>
-    <string name="together_server_error">خطأ في الخادم؜ يرجى المحاولة لاحقًا</string>
+    <string name="together_server_error">خطأ في الخادم  يرجى المحاولة لاحقًا</string>
     <string name="leave">مغادرة</string>
     <string name="join">انضمام</string>
     <string name="joined">تم الانضمام</string>
@@ -1106,15 +1104,15 @@
     <string name="together_welcome_title">مرحبًا بك في DevScout Music Music Together</string>
     <string name="together_welcome_body">تتيح خدمة Music Together لعدة أجهزة مشاركة جلسة مباشرة مع قائمة انتظار وتشغيل متزامنين.</string>
     <string name="together_welcome_host_title">استضافة جلسة</string>
-    <string name="together_welcome_host_body">انقر على بدء الجلسة؜ ثم شارك رابط الجلسة. أبقِ DevScout Music مفتوحًا في الخلفية أثناء الاستضافة.</string>
+    <string name="together_welcome_host_body">انقر على بدء الجلسة  ثم شارك رابط الجلسة. أبقِ DevScout Music مفتوحًا في الخلفية أثناء الاستضافة.</string>
     <string name="together_welcome_join_title">الانضمام من جهاز آخر</string>
-    <string name="together_welcome_join_body">افتح الرابط المشترك؜ أو أدخل الرمز وانقر على انضمام. ستتبع قائمة الانتظار والتشغيل الخاصة بك المستضيف.</string>
+    <string name="together_welcome_join_body">افتح الرابط المشترك  أو أدخل الرمز وانقر على انضمام. ستتبع قائمة الانتظار والتشغيل الخاصة بك المستضيف.</string>
     <string name="together_welcome_permissions_title">الأذونات والأمان</string>
-    <string name="together_welcome_permissions_body">يمكن للمستضيفين تحديد ما إذا كان بإمكان الضيوف إضافة أغاني؜ التحكم في التشغيل؜ أو اشتراط الموافقة للانضمام.</string>
+    <string name="together_welcome_permissions_body">يمكن للمستضيفين تحديد ما إذا كان بإمكان الضيوف إضافة أغاني  التحكم في التشغيل  أو اشتراط الموافقة للانضمام.</string>
     <string name="po_token_account_notice_title">استخدم نفس الحساب</string>
     <string name="po_token_account_notice_body">سجل الدخول هنا باستخدام نفس حساب Google الذي تستخدمه بالفعل لـ YouTube Music داخل DevScout Music قبل إنشاء توكن PO.</string>
-    <string name="po_token_account_notice_same_account">إذا استخدم عرض الويب هذا حسابًا مختلفًا؜ فلن يعمل التوكن المنشأ بشكل صحيح.</string>
-    <string name="po_token_account_notice_mismatch">استخدم الحساب المطابق؜ وأكمل عملية تسجيل الدخول؜ ثم افتح youtube.com/account وقم بإنشاء التوكن من تلك الصفحة.</string>
+    <string name="po_token_account_notice_same_account">إذا استخدم عرض الويب هذا حسابًا مختلفًا  فلن يعمل التوكن المنشأ بشكل صحيح.</string>
+    <string name="po_token_account_notice_mismatch">استخدم الحساب المطابق  وأكمل عملية تسجيل الدخول  ثم افتح youtube.com/account وقم بإنشاء التوكن من تلك الصفحة.</string>
     <string name="saved_accounts">الحسابات المحفوظة</string>
     <string name="save_current_account">حفظ الحساب الحالي</string>
     <string name="no_saved_accounts">لا توجد حسابات محفوظة بعد</string>
@@ -1124,7 +1122,7 @@
     <string name="unsaved_account_dialog_text">لم يتم حفظ حسابك الحالي بعد. هل تريد حفظه قبل إضافة حساب آخر؟</string>
     <string name="unsaved_account_dialog_cancel">إلغاء تسجيل الدخول</string>
     <string name="unsaved_account_dialog_no_thanks">لا شكراً</string>
-    <string name="unsaved_account_dialog_save_yes">نعم؜ احفظ الحساب الحالي</string>
+    <string name="unsaved_account_dialog_save_yes">نعم  احفظ الحساب الحالي</string>
     <string name="youtube_channels">قنوات YouTube</string>
     <string name="hidden_playlists">قوائم التشغيل المخفية</string>
     <string name="hidden_playlists_description">تظهر هنا قوائم التشغيل المخفية من المكتبة</string>
@@ -1149,10 +1147,25 @@
     <string name="scheduled_backup_directory_saved">تم حفظ دليل النسخ الاحتياطي</string>
     <string name="scheduled_backup_load_failed">تعذر تحميل إعدادات النسخ الاحتياطي المجدول</string>
     <string name="scheduled_backup_update_failed">تعذر حفظ إعدادات النسخ الاحتياطي المجدول</string>
-    <string name="gatekeeper_connection_blocked">تم حظر الاتصال بواسطة DevScout Music Remote. لم يتم التحقق من هذا التطبيق كإصدار رسمي من DevScout Music. قم بتثبيت إصدار رسمي من https://github.com/pange/DevScoutMusic.</string>
-    <string name="updates_channel_warning_canary_unstable">تُوفر إصدارات Canary للاختبار والوصول المبكر فقط.\nالاستقرار؜ التوافق؜ والوظائف غير مضمونة.</string>
-    <string name="updates_channel_warning_canary_acknowledgement">ملاحظة: التنزيل مباشرة من GitHub يتجاوز أي فحص إضافي يجريه المتجر الذي ربما ثبّت التطبيق منه سابقًا.\nبالمتابعة؜ فإنك تقر بأن إصدارات Canary قد تكون غير مستقرة وتتحمل مسؤولية استخدامها.</string>
+    <string name="gatekeeper_connection_blocked">تم حظر الاتصال بواسطة DevScout Music Remote. لم يتم التحقق من هذا التطبيق كإصدار رسمي من DevScout Music. قم بتثبيت إصدار رسمي من https://github.com/pangeranpramuka-hub/DevScoutMusic.</string>
+    <string name="updates_channel_warning_canary_unstable">تُوفر إصدارات Canary للاختبار والوصول المبكر فقط.\nالاستقرار  التوافق  والوظائف غير مضمونة.</string>
+    <string name="updates_channel_warning_canary_acknowledgement">ملاحظة: التنزيل مباشرة من GitHub يتجاوز أي فحص إضافي يجريه المتجر الذي ربما ثبّت التطبيق منه سابقًا.\nبالمتابعة  فإنك تقر بأن إصدارات Canary قد تكون غير مستقرة وتتحمل مسؤولية استخدامها.</string>
     <string name="updates_canary_channel_confirmation">التبديل إلى قناة Canary لتلقي إصدارات التطوير.\n\nتُحمل إصدارات Canary تلقائيًا من أحدث فرع تطوير.\nملاحظة: التنزيل مباشرة من GitHub يتجاوز أي فحص إضافي يجريه المتجر الذي ربما ثبّت التطبيق منه سابقًا.</string>
+    <string name="player_stream_client_devscout_music_extractor">مستخرج DevScout Music</string>
+    <string name="new_releases_unavailable">الإصدارات الجديدة غير متوفرة مؤقتًا</string>
+    <string name="new_releases_load_failed">تعذر على DevScout Music تحميل هذا القسم من YouTube Music. حاول مجددًا لاحقًا.</string>
+    <string name="remove_download_confirm">هل أنت متأكد أنك تريد إزالة هذا العنصر الذي تم تنزيله؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="remove_download_section_confirm">هل أنت متأكد أنك تريد إزالة كل التنزيلات في هذا القسم؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="enable_betterlyrics_portato">تفعيل BetterLyrics Portato</string>
+    <string name="onboarding_login_title">مزامنة الاستماع</string>
+    <string name="onboarding_login_subtitle">سجّل الدخول لمزامنة مكتبتك وسجل الاستماع عبر الأجهزة والحصول على تشغيل أكثر موثوقية.</string>
+    <string name="onboarding_login_optional">اختياري. يمكنك تسجيل الدخول لاحقًا من الإعدادات.</string>
+    <string name="onboarding_login_benefits_title">حسابك يساعد DevScout Music</string>
+    <string name="onboarding_login_library_title">مزامنة مكتبتك</string>
+    <string name="onboarding_login_library_desc">احتفظ بموسيقاك وقوائمك المتاحة أينما تستمع.</string>
+    <string name="onboarding_login_history_title">احتفظ بتاريخ الاستماع</string>
+    <string name="onboarding_login_history_desc">واصل رحلتك في الاستماع عبر الأجهزة مع سجل متزامن.</string>
+    <string name="onboarding_login_playback_title">تشغيل أفضل</string>
+    <string name="onboarding_login_playback_desc">استخدم سياق حسابك لتجربة تشغيل أكثر موثوقية.</string>
+    <string name="onboarding_login_skip">تخطي الآن</string>
 </resources>
-
-

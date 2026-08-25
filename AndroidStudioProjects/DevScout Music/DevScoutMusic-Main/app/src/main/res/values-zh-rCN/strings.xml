@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">主页</string>
     <string name="songs">歌曲</string>
@@ -181,7 +181,7 @@
     <string name="palette_neon_pink">电波粉</string>
     <string name="palette_neon_blue">电光蓝</string>
     <string name="palette_neon_orange">高压橙</string>
-    <string name="palette_cyberpunk">Cyberpunk</string>
+    <string name="palette_cyberpunk">赛博朋克</string>
     <string name="palette_ocean">海洋蓝</string>
     <string name="palette_forest">森林绿</string>
     <string name="palette_autumn">深秋红</string>
@@ -281,7 +281,7 @@
     <string name="update_notification_text">DevScout Music%s现已发布</string>
     <string name="permission_status_allowed">允许</string>
     <string name="next">下一个</string>
-    <string name="delete_playlist_confirm">你真的想删除播放列表”%s\"吗?</string>
+    <string name="delete_playlist_confirm">你真的想删除播放列表”%s\"吗</string>
     <string name="sort_by_play_time">播放时间</string>
     <string name="media_id">媒体标识</string>
     <string name="codecs">编解码器</string>
@@ -298,7 +298,7 @@
     <string name="create_playlist">创建播放列表</string>
     <string name="playlist_name">播放列表名称</string>
     <string name="palette_ocean_blue">海洋蓝</string>
-    <string name="palette_synthwave">Synthwave</string>
+    <string name="palette_synthwave">合成波</string>
     <string name="palette_spring">迎春绿</string>
     <string name="palette_summer">夏日黄</string>
     <string name="palette_twilight">暮光紫</string>
@@ -702,8 +702,6 @@
     <string name="together_unknown_participant">匿名用户</string>
     <string name="removed_song_from_queue">已从播放队列中移除“%s”</string>
     <string name="removed_n_songs_from_queue">已从播放队列中移除 %d 首歌曲</string>
-    <string name="aod_mode">熄屏显示模式</string>
-    <string name="aod_mode_exit">退出熄屏显示</string>
     <string name="sort_by_most_played">最常播放</string>
     <string name="sort_order_ascending">升序</string>
     <string name="sort_order_descending">降序</string>
@@ -1098,7 +1096,21 @@
     <string name="sort_a_to_z">A → Z</string>
     <string name="sort_z_to_a">Z → A</string>
     <string name="discord_activity_type_playing_label">正在播放</string>
+    <string name="remove_download_confirm">确定要删除这个已下载项目吗？此操作无法撤销。</string>
+    <string name="remove_download_section_confirm">确定要删除此部分中的所有下载项吗？此操作无法撤销。</string>
+    <string name="enable_betterlyrics_portato">启用 BetterLyrics Portato</string>
+    <string name="onboarding_login_title">同步收听记录</string>
+    <string name="onboarding_login_subtitle">登录以在设备间同步媒体库和播放历史，并获得更稳定的播放体验。</string>
+    <string name="onboarding_login_optional">可选。你也可以稍后在设置中登录。</string>
+    <string name="onboarding_login_benefits_title">账号让 DevScout Music 更出色</string>
+    <string name="onboarding_login_library_title">同步媒体库</string>
+    <string name="onboarding_login_library_desc">让你保存的音乐和播放列表无论在何处都可用。</string>
+    <string name="onboarding_login_history_title">保留收听历史</string>
+    <string name="onboarding_login_history_desc">在不同设备之间同步收听历史，继续你的人生音乐旅程。</string>
+    <string name="onboarding_login_playback_title">更好的播放体验</string>
+    <string name="onboarding_login_playback_desc">使用账户上下文提供更可靠的播放体验。</string>
+    <string name="onboarding_login_skip">暂时跳过</string>
+    <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
+    <string name="new_releases_unavailable">新发行内容暂时不可用</string>
+    <string name="new_releases_load_failed">DevScout Music 无法加载此 YouTube Music 区域。请稍后重试。</string>
 </resources>
-
-
-

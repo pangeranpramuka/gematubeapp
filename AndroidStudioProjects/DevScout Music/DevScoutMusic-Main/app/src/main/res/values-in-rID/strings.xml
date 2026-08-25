@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">Beranda</string>
     <string name="songs">Lagu</string>
@@ -45,8 +45,8 @@
     <string name="liked_songs">Disukai</string>
     <string name="downloaded_songs">Lagu yang diunduh</string>
     <string name="playlist_is_empty">Playlist ini kosong</string>
-    <string name="remove_download_playlist_confirm">Apakah Anda yakin ingin menghapus semua lagu playlist \"%s\" dari penyimpanan Lagu Unduhan?</string>
-    <string name="delete_playlist_confirm">Yakin ingin menghapus playlist \"%s\"?</string>
+    <string name="remove_download_playlist_confirm">Apakah Anda yakin ingin menghapus semua lagu playlist \"%s\" dari penyimpanan Lagu Unduhan</string>
+    <string name="delete_playlist_confirm">Yakin ingin menghapus playlist \"%s\"</string>
     <string name="change_playlist_cover">Ubah sampul playlist</string>
     <string name="retry">Coba lagi</string>
     <string name="shuffle">Acak</string>
@@ -68,14 +68,14 @@
     <string name="remove_download">Hapus unduhan</string>
     <string name="import_playlist">Impor playlist</string>
     <string name="import_failed">Impor gagal</string>
-    <string name="update_button">Pembaruan</string>
+    <string name="update_button">Perbarui</string>
     <string name="add_to_playlist">Tambahkan ke playlist</string>
     <string name="pin_to_speed_dial">Sematkan ke pintasan cepat</string>
     <string name="remove_from_speed_dial">Hapus dari pintasan cepat</string>
     <string name="view_artist">Lihat artis</string>
     <string name="view_album">Lihat album</string>
     <string name="view_all">Lihat semua</string>
-    <string name="more">lebih</string>
+    <string name="more">Lainnya</string>
     <string name="refetch">Ambil kembali</string>
     <string name="share">Bagikan</string>
     <string name="delete">Hapus</string>
@@ -88,9 +88,9 @@
     <string name="together_host_left_session">Host Meninggalkan Sesi</string>
     <string name="together_kick">Keluarkan</string>
     <string name="together_ban">Blokir</string>
-    <string name="together_kick_confirm">Keluarkan %1$s?</string>
-    <string name="together_ban_confirm">Blokir %1$s?</string>
-    <string name="together_requesting_song_change">Meminta host untuk mengganti lagu�?�</string>
+    <string name="together_kick_confirm">Keluarkan %1$s</string>
+    <string name="together_ban_confirm">Blokir %1$s</string>
+    <string name="together_requesting_song_change">Meminta host untuk mengganti lagu</string>
     <string name="together_song_change_failed">Perubahan lagu tidak diterapkan. Silakan coba lagi.</string>
     <string name="remove_from_history">Hapus dari riwayat</string>
     <string name="remove_from_playlist">Hapus dari playlist</string>
@@ -99,10 +99,8 @@
     <string name="removed_n_songs_from_queue">Menghapus %d lagu dari antrean</string>
     <string name="search_online">Cari online</string>
     <string name="tempo_and_pitch">Tempo dan Pitch</string>
-    <string name="aod_mode">Mode AOD</string>
-    <string name="aod_mode_exit">Keluar dari AOD</string>
     <string name="tempo">Tempo</string>
-    <string name="pitch">Pitch</string>
+    <string name="pitch">Nada</string>
     <string name="pitch_mode_semitones_short">st</string>
     <string name="pitch_mode_multiplier_short">x</string>
     <string name="sort_by_create_date">Tanggal ditambahkan</string>
@@ -113,13 +111,13 @@
     <string name="sort_by_custom">Urutan kustom</string>
     <string name="sort_order_ascending">Menaik</string>
     <string name="sort_order_descending">Menurun</string>
-    <string name="media_id">Media id</string>
+    <string name="media_id">ID media</string>
     <string name="mime_type">Tipe MIME</string>
     <string name="no_matching_playlists">Tidak ada playlist yang cocok</string>
     <string name="codecs">Codec</string>
     <string name="bitrate">Bitrate</string>
-    <string name="sample_rate">Sample rate</string>
-    <string name="loudness">Loudness</string>
+    <string name="sample_rate">Laju sampel</string>
+    <string name="loudness">Keras</string>
     <string name="volume">Volume</string>
     <string name="file_size">Ukuran berkas</string>
     <string name="unknown">Tidak diketahui</string>
@@ -174,7 +172,7 @@
     </plurals>
     <string name="error_no_stream">Tidak ada aliran yang tersedia</string>
     <string name="error_no_internet">Tidak ada koneksi jaringan</string>
-    <string name="error_timeout">Timeout</string>
+    <string name="error_timeout">Waktu habis</string>
     <string name="error_malformed_stream">Kesalahan sumber</string>
     <string name="error_unknown">Kesalahan tidak diketahui</string>
     <string name="action_like">Suka</string>
@@ -205,7 +203,7 @@
     <string name="palette_cobalt_blue">Kobalt</string>
     <string name="palette_electric_blue">Listrik</string>
     <string name="palette_emerald_green">Zamrud</string>
-    <string name="palette_teal_wave">Teal Wave</string>
+    <string name="palette_teal_wave">Gelombang Teal</string>
     <string name="palette_forest_green">Hutan</string>
     <string name="palette_spotify_green">Spotify</string>
     <string name="palette_mint_fresh">Mint</string>
@@ -214,7 +212,7 @@
     <string name="palette_sunset_orange">Sunset</string>
     <string name="palette_golden_hour">Emas</string>
     <string name="palette_warm_amber">kuning</string>
-    <string name="palette_tangerine_blast">Tangerine</string>
+    <string name="palette_tangerine_blast">Jeruk</string>
     <string name="palette_peach">Persik</string>
     <string name="palette_mango">Mangga</string>
     <string name="palette_royal_purple">Ungu Kerajaan</string>
@@ -226,7 +224,7 @@
     <string name="palette_cherry_blossom">Sakura</string>
     <string name="palette_rose_quartz">Rose Quartz</string>
     <string name="palette_magenta_pop">Magenta</string>
-    <string name="palette_hot_pink">Hot Pink</string>
+    <string name="palette_hot_pink">Pink Cerah</string>
     <string name="palette_blush">Blush</string>
     <string name="palette_coral">Karang</string>
     <string name="palette_bubblegum">Bubblegum</string>
@@ -250,7 +248,7 @@
     <string name="palette_pastel_yellow">Kuning Pastel</string>
     <string name="palette_pastel_purple">Ungu Pastel</string>
     <string name="palette_neon_green">Hijau Neon</string>
-    <string name="palette_neon_pink">Neon Pink</string>
+    <string name="palette_neon_pink">Pink Neon</string>
     <string name="palette_neon_blue">Neon Biru</string>
     <string name="palette_neon_orange">Neon Oranye</string>
     <string name="palette_cyberpunk">Cyberpunk</string>
@@ -386,7 +384,7 @@
     <string name="external_downloader_package_desc">Nama paket aplikasi pengunduh eksternal (mis. com.deniscerri.ytdl)</string>
     <string name="open_with_downloader">Buka dengan Pengunduh</string>
     <string name="external_downloader_not_installed">Aplikasi pengunduh eksternal tidak diinstal</string>
-    <string name="external_downloader_not_configured">Tidak ada pengunduh eksternal yang dikonfigurasi. Tetapkan satu di Pengaturan �?' Pemutar.</string>
+    <string name="external_downloader_not_configured">Tidak ada pengunduh eksternal yang dikonfigurasi. Tetapkan satu di Pengaturan ' Pemutar.</string>
     <string name="add_symbol">Tambahkan simbol</string>
     <string name="enter_symbol">Masukkan simbol</string>
     <string name="equalizer">Ekualiser</string>
@@ -421,7 +419,7 @@
     <string name="max_song_cache_size">Ukuran cache lagu maksimal</string>
     <string name="clear_song_cache">Hapus cache lagu</string>
     <string name="clear_lyrics_cache">Hapus cache lirik</string>
-    <string name="clear_lyrics_cache_confirm">Apakah Anda yakin ingin menghapus semua cache lirik?</string>
+    <string name="clear_lyrics_cache_confirm">Apakah Anda yakin ingin menghapus semua cache lirik</string>
     <string name="paxsenix_stats">Statistik API Paxsenix</string>
     <string name="uptime">Waktu aktif</string>
     <string name="total_requests">Jumlah Permintaan</string>
@@ -438,11 +436,11 @@
     <string name="listen_history">Riwayat mendengarkan</string>
     <string name="pause_listen_history">Jeda riwayat mendengarkan</string>
     <string name="clear_listen_history">Hapus riwayat mendengarkan</string>
-    <string name="clear_listen_history_confirm">Apakah Anda yakin ingin menghapus semua riwayat mendengarkan?</string>
+    <string name="clear_listen_history_confirm">Apakah Anda yakin ingin menghapus semua riwayat mendengarkan</string>
     <string name="search_history">Riwayat pencarian</string>
     <string name="pause_search_history">Jeda riwayat pencarian</string>
     <string name="clear_search_history">Hapus riwayat pencarian</string>
-    <string name="clear_search_history_confirm">Apakah Anda yakin ingin menghapus semua riwayat pencarian?</string>
+    <string name="clear_search_history_confirm">Apakah Anda yakin ingin menghapus semua riwayat pencarian</string>
     <string name="use_login_for_browse_desc">Hal ini dapat memengaruhi konten apa yang Anda lihat, misalnya menampilkan album premium saja jika Anda masuk dengan akun Premium</string>
     <string name="disable_screenshot">Nonaktifkan tangkapan layar</string>
     <string name="disable_screenshot_desc">Jika opsi ini aktif, tangkapan layar dan tampilan aplikasi di Terbaru akan dinonaktifkan.</string>
@@ -513,7 +511,7 @@
     <string name="small_image_custom_url">URL khusus gambar kecil</string>
     <string name="discord_presence_online">Online</string>
     <string name="discord_presence_do_not_disturb">Jangan Ganggu</string>
-    <string name="discord_presence_idle">Idle</string>
+    <string name="discord_presence_idle">Siaga</string>
     <string name="discord_presence_streaming">Streaming</string>
     <string name="discord_platform_desktop">Desktop</string>
     <string name="discord_platform_xbox">Xbox</string>
@@ -523,11 +521,11 @@
     <string name="discord_platform_embedded">Embedded</string>
     <string name="discord_platform_ps4">PS4</string>
     <string name="discord_platform_ps5">PS5</string>
-    <string name="discord_activity_type_playing_label">Playing</string>
+    <string name="discord_activity_type_playing_label">Memutar</string>
     <string name="discord_activity_type_streaming_label">Streaming</string>
-    <string name="discord_activity_type_listening_label">Listening</string>
-    <string name="discord_activity_type_watching_label">Watching</string>
-    <string name="discord_activity_type_competing_label">Competing</string>
+    <string name="discord_activity_type_listening_label">Mendengarkan</string>
+    <string name="discord_activity_type_watching_label">Menonton</string>
+    <string name="discord_activity_type_competing_label">Bersaing</string>
     <string name="discord_image_album_artwork">Sampul album</string>
     <string name="discord_image_artist_artwork">Sampul artis</string>
     <string name="activity_status">Status Aktivitas</string>
@@ -559,7 +557,7 @@
     <string name="discord_show_when_paused_desc">Jika diaktifkan, Rich Presence akan tetap terlihat saat dijeda dengan ikon jeda. Jika dinonaktifkan, RPC akan hilang saat dijeda.</string>
     <string name="discord_paused">Dijeda</string>
     <string name="logout_confirm_title">Konfirmasikan logout</string>
-    <string name="logout_confirm_message">Apakah Anda yakin ingin keluar dari Discord?.</string>
+    <string name="logout_confirm_message">Apakah Anda yakin ingin keluar dari Discord.</string>
     <string name="logout_confirm_yes">Keluar</string>
     <string name="logout_confirm_no">Batal</string>
     <string name="experiment_settings">Pengaturan Eksperimental</string>
@@ -580,7 +578,7 @@
     <string name="unknown_codec">codec tidak dikenal</string>
     <string name="bitrate_label">Bitrate</string>
     <string name="unknown_bitrate">Kecepatan bit tidak diketahui</string>
-    <string name="sample_rate_label">Sample Rate</string>
+    <string name="sample_rate_label">Laju Sampel</string>
     <string name="unknown_sample_rate">Sample rate tidak diketahui</string>
     <string name="content_length_label">Ukuran Konten</string>
     <string name="unknown_content_length">Panjang konten tidak diketahui</string>
@@ -597,7 +595,7 @@
     <string name="log_level_verbose">Verbose</string>
     <string name="log_level_debug">Debug</string>
     <string name="log_level_info">Info</string>
-    <string name="log_level_warning">Warning</string>
+    <string name="log_level_warning">Peringatan</string>
     <string name="log_level_error">Kesalahan</string>
     <string name="filter_all_logs">Semua</string>
     <string name="clear">Bersihkan</string>
@@ -605,10 +603,10 @@
     <string name="real_time_playback_stats">Statistik pemutaran realtime</string>
     <string name="copied_to_clipboard">Menyalin log ke clipboard</string>
     <string name="playback_state_idle">IDLE</string>
-    <string name="playback_state_buffering">BUFFERING</string>
-    <string name="playback_state_ready">READY</string>
-    <string name="playback_state_ended">ENDED</string>
-    <string name="playback_state_unknown">UNKNOWN</string>
+    <string name="playback_state_buffering">MEMBUFFER</string>
+    <string name="playback_state_ready">SIAP</string>
+    <string name="playback_state_ended">SELESAI</string>
+    <string name="playback_state_unknown">TAK DIKETAHUI</string>
     <string name="share_logs">Bagikan log</string>
     <string name="about">Tentang</string>
     <string name="new_version_available">Versi baru tersedia</string>
@@ -690,7 +688,7 @@
     <string name="together_hosting">Menyelenggarakan sesi</string>
     <string name="together_joining">Bergabung dengan sesi</string>
     <string name="together_connected">Terhubung</string>
-    <string name="together_error_state">Error</string>
+    <string name="together_error_state">Kesalahan</string>
     <string name="got_it">Mengerti</string>
     <string name="together_dont_show_again">Jangan tampilkan ini lagi</string>
     <string name="together_welcome_title">Selamat datang di DevScout Music Music Together</string>
@@ -758,13 +756,13 @@
     <string name="font_preference_system">Sistem</string>
     <string name="duration_sort">Durasi</string>
     <string name="offline_shortcut">Offline</string>
-    <string name="cached">Cached</string>
+    <string name="cached">Tersimpan</string>
     <string name="account_integrations_summary">Discord, Last.fm, Libre.fm, ListenBrainz</string>
     <string name="instant_playback">Pemutaran Instan</string>
     <string name="on_device">Di perangkat ini</string>
     <string name="recently_played">Baru saja Diputar</string>
     <string name="top_mixes">Mix Teratas untuk Anda</string>
-    <string name="library_top_mixes_loading">Menyiapkan mix AI anda�?�</string>
+    <string name="library_top_mixes_loading">Menyiapkan mix AI anda</string>
     <string name="library_top_mixes_refresh">Segarkan mix</string>
     <string name="library_top_mixes_configure_ai">Konfigurasikan AI</string>
     <string name="library_top_mixes_ai_not_configured_title">Konfigurasikan AI untuk membuat mix</string>
@@ -782,10 +780,10 @@
     <string name="recently_updated">Baru saja diperbarui</string>
     <string name="list_view">Daftar Tampilan</string>
     <string name="grid_view">Tampilan Grid</string>
-    <string name="personal_label">Personal</string>
+    <string name="personal_label">Pribadi</string>
     <string name="youtube_synced">Youtube Tersinkronisasi</string>
     <string name="options_label">Opsi</string>
-    <string name="top_artist_badge">TOP ARTIST</string>
+    <string name="top_artist_badge">ARTIS TERATAS</string>
     <string name="no_artist_yet">Tidak Ada Artis</string>
     <string name="total_label">total</string>
     <string name="most_tracks">Lagu terbanyak</string>
@@ -820,7 +818,7 @@
     <string name="widget_no_recent_songs">Belum ada lagu yang diputar</string>
     <string name="widget_no_genres">Belum ada genre saat ini</string>
     <string name="widget_no_recommendations">Belum ada rekomendasi saat ini</string>
-    <string name="remove_from_library_confirm">Hapus \"%1$s\" dari koleksi anda?</string>
+    <string name="remove_from_library_confirm">Hapus \"%1$s\" dari koleksi anda</string>
     <string name="download_progress_percent">%1$d%%</string>
     <string name="add">Tambah</string>
     <string name="add_to_n_playlists">Tambahkan ke %1$d</string>
@@ -830,11 +828,11 @@
     <string name="hide_playlist">Sembunyikan playlist</string>
     <string name="unhide_playlist">Tampilkan playlist</string>
     <string name="show_hidden_playlists">Tampilkan yang disembunyikan</string>
-    <string name="hide_playlist_confirm">Sembunyikan \"%1$s\" dari koleksi?</string>
+    <string name="hide_playlist_confirm">Sembunyikan \"%1$s\" dari koleksi</string>
     <string name="together_transfer_host">Alihkan host</string>
     <string name="together_approve">Setujui</string>
     <string name="together_reject">Tolak</string>
-    <string name="together_transfer_host_confirm">Alihkan kepemilikan host ke %1$s?</string>
+    <string name="together_transfer_host_confirm">Alihkan kepemilikan host ke %1$s</string>
     <string name="together_participant_joined_notification">%1$s bergabung ke ruangan</string>
     <string name="together_participant_left_notification">%1$s meninggalkan ruangan</string>
     <string name="together_room_closed_inactivity_notification">Ruangan ditutup karena tidak ada yang bergabung selama 10 menit</string>
@@ -864,7 +862,7 @@
     <string name="app_icon_empty">Tidak ada ikon aplikasi yang tersedia</string>
     <string name="app_icon_load_failed">Ikon aplikasi tidak dapat dimuat</string>
     <string name="app_icon_change_failed">Tidak dapat mengubah ikon aplikasi</string>
-    <string name="font_preference">Font</string>
+    <string name="font_preference">Huruf</string>
     <string name="font_preference_default">Bawaan</string>
     <string name="font_preference_custom">Kustom</string>
     <string name="custom_font">Font kustom</string>
@@ -894,8 +892,8 @@
     <string name="device_volume_zero_playback_paused">Pemutaran dijeda karena volume perangkat 0. Naikkan volume untuk melanjutkan.</string>
     <string name="eq_screen_subtitle">Bentuk pemutaran untuk telinga dan peralatan Anda</string>
     <string name="eq_sound_shaping_on">Pembentukan suara aktif</string>
-    <string name="sort_a_to_z">A 192 Z</string>
-    <string name="sort_z_to_a">Z 190 A</string>
+    <string name="sort_a_to_z">Urutkan A ke Z</string>
+    <string name="sort_z_to_a">Urutkan Z ke A</string>
     <string name="custom_order">Urutan kustom</string>
     <string name="lyrics_mode_v2">V2 Legacy</string>
     <string name="playback_error_code">Kode</string>
@@ -1066,10 +1064,10 @@
     <string name="together_activity_song_skipped">%1$s melompat ke %2$s</string>
     <string name="together_activity_queue_updated">%1$s mengubah antrean</string>
     <string name="together_activity_playback_state_changed">%1$s mengubah status pemutaran</string>
-    <string name="together_activity_error">Error: %1$s</string>
+    <string name="together_activity_error">Kesalahan: %1$s</string>
     <string name="add_another_account">Tambahkan akun lain</string>
     <string name="unsaved_account_dialog_title">Akun belum disimpan</string>
-    <string name="unsaved_account_dialog_text">Akun Anda saat ini belum disimpan. Apakah Anda ingin menyimpannya sebelum menambahkan akun lain?</string>
+    <string name="unsaved_account_dialog_text">Akun Anda saat ini belum disimpan. Apakah Anda ingin menyimpannya sebelum menambahkan akun lain</string>
     <string name="unsaved_account_dialog_cancel">Batal masuk</string>
     <string name="unsaved_account_dialog_no_thanks">Tidak, terima kasih</string>
     <string name="unsaved_account_dialog_save_yes">Ya, simpan akun saat ini</string>
@@ -1097,8 +1095,22 @@
     <string name="scheduled_backup_directory_saved">Direktori pencadangan disimpan</string>
     <string name="scheduled_backup_load_failed">Pengaturan pencadangan terjadwal tidak dapat dimuat</string>
     <string name="scheduled_backup_update_failed">Pengaturan pencadangan terjadwal tidak dapat disimpan</string>
-    <string name="gatekeeper_connection_blocked">Koneksi diblokir oleh DevScout Music Remote. Aplikasi ini tidak dapat diverifikasi sebagai build DevScout Music resmi. Instal build resmi dari https://github.com/pange/DevScoutMusic.</string>
+    <string name="gatekeeper_connection_blocked">Koneksi diblokir oleh DevScout Music Remote. Aplikasi ini tidak dapat diverifikasi sebagai build DevScout Music resmi. Instal build resmi dari https://github.com/pangeranpramuka-hub/DevScoutMusic.</string>
+    <string name="player_stream_client_devscout_music_extractor">Ekstraktor DevScout Music</string>
+    <string name="new_releases_unavailable">Rilis baru tidak tersedia untuk sementara</string>
+    <string name="new_releases_load_failed">DevScout Music tidak dapat memuat bagian YouTube Music ini. Coba lagi nanti.</string>
+    <string name="remove_download_confirm">Apakah Anda yakin ingin menghapus item unduhan ini? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="remove_download_section_confirm">Apakah Anda yakin ingin menghapus semua unduhan di bagian ini? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="enable_betterlyrics_portato">Aktifkan BetterLyrics Portato</string>
+    <string name="onboarding_login_title">Sinkronkan cara Anda mendengarkan</string>
+    <string name="onboarding_login_subtitle">Masuk untuk menyinkronkan perpustakaan dan riwayat Anda di seluruh perangkat serta mendapatkan pemutaran yang lebih andal.</string>
+    <string name="onboarding_login_optional">Opsional. Anda bisa masuk nanti dari Pengaturan.</string>
+    <string name="onboarding_login_benefits_title">Akun Anda membantu DevScout Music</string>
+    <string name="onboarding_login_library_title">Sinkronkan perpustakaan Anda</string>
+    <string name="onboarding_login_library_desc">Jaga musik dan daftar putar yang Anda simpan tetap tersedia di mana pun Anda mendengarkan.</string>
+    <string name="onboarding_login_history_title">Jaga riwayat Anda</string>
+    <string name="onboarding_login_history_desc">Lanjutkan perjalanan mendengarkan Anda di berbagai perangkat dengan riwayat yang tersinkron.</string>
+    <string name="onboarding_login_playback_title">Pemutaran lebih baik</string>
+    <string name="onboarding_login_playback_desc">Gunakan konteks akun Anda untuk pengalaman pemutaran yang lebih andal.</string>
+    <string name="onboarding_login_skip">Lewati untuk sekarang</string>
 </resources>
-
-
-

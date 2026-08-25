@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">Home</string>
     <string name="songs">Songs</string>
@@ -51,7 +51,7 @@
     <string name="on_device">On device</string>
     <string name="recently_played">Recently Played</string>
     <string name="top_mixes">Top Mixes for You</string>
-    <string name="library_top_mixes_loading">Preparing your AI mixes�?�</string>
+    <string name="library_top_mixes_loading">Preparing your AI mixes</string>
     <string name="library_top_mixes_refresh">Refresh mixes</string>
     <string name="library_top_mixes_configure_ai">Configure AI</string>
     <string name="library_top_mixes_ai_not_configured_title">Configure AI to build mixes</string>
@@ -108,12 +108,12 @@
     <string name="liked_songs">Liked songs</string>
     <string name="downloaded_songs">Downloaded songs</string>
     <string name="playlist_is_empty">The playlist is empty</string>
-    <string name="remove_download_playlist_confirm">Do you really want to remove all \"%s\" playlist songs from the Downloaded Songs storage?</string>
-    <string name="delete_playlist_confirm">Do you really want to delete the playlist \"%s\"?</string>
+    <string name="remove_download_playlist_confirm">Do you really want to remove all \"%s\" playlist songs from the Downloaded Songs storage</string>
+    <string name="delete_playlist_confirm">Do you really want to delete the playlist \"%s\"</string>
     <string name="change_playlist_cover">Change playlist cover</string>
     <string name="remove_playlist_cover">Remove custom cover</string>
     <string name="playlist_cover_updated">Playlist cover updated</string>
-    <string name="playlist_cover_update_failed">Couldn�?Tt update playlist cover</string>
+    <string name="playlist_cover_update_failed">CouldnTt update playlist cover</string>
     <string name="retry">Retry</string>
     <string name="cast">Cast</string>
     <string name="cast_devices">Cast devices</string>
@@ -155,12 +155,12 @@
     <string name="add_to_queue">Add to queue</string>
     <string name="add_to_library">Add to library</string>
     <string name="remove_from_library">Remove from library</string>
-    <string name="remove_from_library_confirm">Remove \u0022%1$s\u0022 from your library?</string>
+    <string name="remove_from_library_confirm">Remove \u0022%1$s\u0022 from your library</string>
     <string name="action_download">Download</string>
     <string name="downloading">Downloading</string>
     <string name="remove_download">Remove download</string>
-    <string name="remove_download_confirm">Are you sure you want to remove this downloaded item? This action cannot be undone.</string>
-    <string name="remove_download_section_confirm">Are you sure you want to remove all downloads in this section? This action cannot be undone.</string>
+    <string name="remove_download_confirm">Are you sure you want to remove this downloaded item This action cannot be undone.</string>
+    <string name="remove_download_section_confirm">Are you sure you want to remove all downloads in this section This action cannot be undone.</string>
     <string name="download_progress_percent">%1$d%%</string>
     <string name="import_playlist">Import playlist</string>
     <string name="import_failed">Import failed</string>
@@ -183,7 +183,7 @@
     <string name="hide_playlist">Hide playlist</string>
     <string name="unhide_playlist">Unhide playlist</string>
     <string name="show_hidden_playlists">Show hidden</string>
-    <string name="hide_playlist_confirm">Hide \u0022%1$s\u0022 from library?</string>
+    <string name="hide_playlist_confirm">Hide \u0022%1$s\u0022 from library</string>
     <string name="together_participants">Participants</string>
     <string name="together_connected_count">%1$d connected</string>
     <string name="together_role_host">Host</string>
@@ -196,9 +196,9 @@
     <string name="together_transfer_host">Transfer host</string>
     <string name="together_approve">Approve</string>
     <string name="together_reject">Reject</string>
-    <string name="together_kick_confirm">Kick %1$s?</string>
-    <string name="together_ban_confirm">Ban %1$s?</string>
-    <string name="together_transfer_host_confirm">Transfer host ownership to %1$s?</string>
+    <string name="together_kick_confirm">Kick %1$s</string>
+    <string name="together_ban_confirm">Ban %1$s</string>
+    <string name="together_transfer_host_confirm">Transfer host ownership to %1$s</string>
     <string name="together_requesting_song_change">Requesting host to change the song…</string>
     <string name="together_song_change_failed">Song change not applied. Please try again.</string>
     <string name="together_participant_joined_notification">%1$s joined the room</string>
@@ -572,7 +572,7 @@
     <string name="external_downloader_package_desc">Package name or app name of the external downloader (e.g. com.deniscerri.ytdl or YTDLnis)</string>
     <string name="open_with_downloader">Open with Downloader</string>
     <string name="external_downloader_not_installed">External downloader app is not installed</string>
-    <string name="external_downloader_not_configured">No external downloader configured. Set one in Settings â�?��?T Player.</string>
+    <string name="external_downloader_not_configured">No external downloader configured. Set one in Settings âT Player.</string>
     <string name="add_symbol">Add symbol</string>
     <string name="enter_symbol">Enter symbol</string>
     <string name="equalizer">Equalizer</string>
@@ -641,7 +641,7 @@
     <string name="max_song_cache_size">Max song cache size</string>
     <string name="clear_song_cache">Clear song cache</string>
     <string name="clear_lyrics_cache">Clear lyrics cache</string>
-    <string name="clear_lyrics_cache_confirm">Are you sure you want to clear all lyrics cache?</string>
+    <string name="clear_lyrics_cache_confirm">Are you sure you want to clear all lyrics cache</string>
     <string name="paxsenix_stats">Paxsenix API Stats</string>
     <string name="uptime">Uptime</string>
     <string name="total_requests">Total Requests</string>
@@ -658,11 +658,11 @@
     <string name="listen_history">Listen history</string>
     <string name="pause_listen_history">Pause listen history</string>
     <string name="clear_listen_history">Clear listen history</string>
-    <string name="clear_listen_history_confirm">Are you sure you want to clear all listen history?</string>
+    <string name="clear_listen_history_confirm">Are you sure you want to clear all listen history</string>
     <string name="search_history">Search history</string>
     <string name="pause_search_history">Pause search history</string>
     <string name="clear_search_history">Clear search history</string>
-    <string name="clear_search_history_confirm">Are you sure you want to clear all search history?</string>
+    <string name="clear_search_history_confirm">Are you sure you want to clear all search history</string>
     <string name="use_login_for_browse_desc">This can influence what content you see and for example shows premium-only albums if you are logged in with a Premium account</string>
     <string name="disable_screenshot">Disable screenshot</string>
     <string name="disable_screenshot_desc">When this option is on, screenshots and the app\'s view in Recents are disabled.</string>
@@ -684,7 +684,7 @@
     <string name="ai_content_filter_source">About AiSList</string>
     <string name="ai_content_filter_source_summary">Community-maintained channel data from AiSlopList.com</string>
     <string name="ai_content_filter_updated">AI channel lists updated</string>
-    <string name="ai_content_filter_update_failed">Couldn�?Tt update AI channel lists. The previous lists will remain active.</string>
+    <string name="ai_content_filter_update_failed">CouldnTt update AI channel lists. The previous lists will remain active.</string>
     <string name="backup_restore">Backup and restore</string>
     <string name="action_backup">Backup</string>
     <string name="action_restore">Restore</string>
@@ -817,7 +817,7 @@
     <string name="discord_show_when_paused_desc">If enabled, Rich Presence will remain visible while paused with a pause icon. If disabled, RPC will disappear when paused.</string>
     <string name="discord_paused">Paused</string>
     <string name="logout_confirm_title">Confirm logout</string>
-    <string name="logout_confirm_message">Are you sure you want to log out of Discord?.</string>
+    <string name="logout_confirm_message">Are you sure you want to log out of Discord.</string>
     <string name="logout_confirm_yes">Log out</string>
     <string name="logout_confirm_no">Cancel</string>
     <string name="experiment_settings">Experimental Settings</string>
@@ -922,8 +922,8 @@
     <string name="resume_download">Resume</string>
     <string name="download_speed">%1$s/s</string>
     <string name="download_progress_summary">%1$d%% · %2$s/s</string>
-    <string name="downloads_load_failed">Couldn�?Tt load downloads</string>
-    <string name="download_action_failed">Couldn�?Tt update the download</string>
+    <string name="downloads_load_failed">CouldnTt load downloads</string>
+    <string name="download_action_failed">CouldnTt update the download</string>
     <string name="download_failed_state">Download failed</string>
     <string name="search_downloads">Search downloads</string>
     <string name="no_matching_downloads">No matching downloads</string>
@@ -1091,7 +1091,7 @@
     <string name="remove_account">Remove account</string>
     <string name="add_another_account">Add another account</string>
     <string name="unsaved_account_dialog_title">Account not saved</string>
-    <string name="unsaved_account_dialog_text">Your current account has not been saved yet. Do you want to save it before adding another account?</string>
+    <string name="unsaved_account_dialog_text">Your current account has not been saved yet. Do you want to save it before adding another account</string>
     <string name="unsaved_account_dialog_cancel">Cancel login</string>
     <string name="unsaved_account_dialog_no_thanks">No thanks</string>
     <string name="unsaved_account_dialog_save_yes">Yes, save current account</string>
@@ -1119,11 +1119,8 @@
     <string name="scheduled_backup_directory_saved">Backup directory saved</string>
     <string name="scheduled_backup_load_failed">Scheduled backup settings could not be loaded</string>
     <string name="scheduled_backup_update_failed">Scheduled backup settings could not be saved</string>
-    <string name="gatekeeper_connection_blocked">Connection blocked by DevScout Music Remote. This app could not be verified as an official DevScout Music build. Install an official build from https://github.com/pange/DevScoutMusic.</string>
+    <string name="gatekeeper_connection_blocked">Connection blocked by DevScout Music Remote. This app could not be verified as an official DevScout Music build. Install an official build from https://github.com/pangeranpramuka-hub/DevScoutMusic.</string>
     <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
     <string name="new_releases_unavailable">New releases are temporarily unavailable</string>
     <string name="new_releases_load_failed">DevScout Music could not load this YouTube Music section. Try again later.</string>
 </resources>
-
-
-

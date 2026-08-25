@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">首頁</string>
     <string name="songs">歌曲</string>
@@ -201,8 +201,6 @@
     <string name="removed_n_songs_from_queue">已從佇列中移除%d首歌曲</string>
     <string name="search_online">線上搜尋</string>
     <string name="tempo_and_pitch">速度與音高</string>
-    <string name="aod_mode">AOD 模式</string>
-    <string name="aod_mode_exit">退出 AOD</string>
     <string name="tempo">速度</string>
     <string name="pitch">音高</string>
     <string name="pitch_mode_semitones_short">半音</string>
@@ -595,7 +593,7 @@
     <string name="restore_success">備份還原成功</string>
     <string name="restore_failed">備份還原失敗</string>
     <string name="discord_integration">Discord 集成</string>
-    <string name="account_integrations_summary">Discord, Last.fm, Libre.fm, ListenBrainz</string>
+    <string name="account_integrations_summary">Discord、Last.fm、Libre.fm、ListenBrainz</string>
     <string name="discord_login_description">透過 OAuth 連接您的 Discord 帳戶，以便 DevScout Music 發布「豐富狀態」（Rich Presence）。</string>
     <string name="discord_open_authorization">打開 Discord 授權</string>
     <string name="discord_waiting_for_authorization">正在等待 Discord 授權…</string>
@@ -1099,7 +1097,20 @@
     <string name="scheduled_backup_load_failed">無法載入計劃備份設定</string>
     <string name="scheduled_backup_update_failed">無法儲存計劃備份設定</string>
     <string name="enable_betterlyrics_portato">啟用 BetterLyrics Portato 歌詞來源</string>
+    <string name="remove_download_confirm">確定要刪除此已下載項目嗎？此操作無法復原。</string>
+    <string name="remove_download_section_confirm">確定要刪除此區段中的所有下載項目嗎？此操作無法復原。</string>
+    <string name="onboarding_login_title">同步收聽記錄</string>
+    <string name="onboarding_login_subtitle">登入以在裝置間同步媒體庫和播放歷史，並取得更穩定的播放體驗。</string>
+    <string name="onboarding_login_optional">可選。你也可以稍後在設定中登入。</string>
+    <string name="onboarding_login_benefits_title">帳號讓 DevScout Music 更出色</string>
+    <string name="onboarding_login_library_title">同步媒體庫</string>
+    <string name="onboarding_login_library_desc">讓你儲存的音樂和播放清單在任何地方都可用。</string>
+    <string name="onboarding_login_history_title">保留收聽歷史</string>
+    <string name="onboarding_login_history_desc">在不同裝置之間同步收聽歷史，繼續你的音樂旅程。</string>
+    <string name="onboarding_login_playback_title">更好的播放體驗</string>
+    <string name="onboarding_login_playback_desc">使用帳號內容提供更可靠的播放體驗。</string>
+    <string name="onboarding_login_skip">暫時跳過</string>
+    <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
+    <string name="new_releases_unavailable">新發行內容暫時不可用</string>
+    <string name="new_releases_load_failed">DevScout Music 無法載入此 YouTube Music 區域。請稍後再試。</string>
 </resources>
-
-
-

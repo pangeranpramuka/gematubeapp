@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">الرئيسية</string>
     <string name="songs">الأغاني</string>
@@ -257,8 +257,6 @@
     <string name="removed_n_songs_from_queue">اتشال %d أغنية من الطابور</string>
     <string name="search_online">بحث أونلاين</string>
     <string name="tempo_and_pitch">السرعة وطبقة الصوت</string>
-    <string name="aod_mode">وضع الشاشة الدائمة</string>
-    <string name="aod_mode_exit">الخروج من الشاشة الدائمة</string>
     <string name="tempo">السرعة</string>
     <string name="pitch">طبقة الصوت</string>
     <string name="pitch_mode_semitones_short">نص نغمة</string>
@@ -1109,7 +1107,21 @@
     <string name="updates_channel_warning_canary_acknowledgement">ملاحظة: التنزيل المباشر من GitHub بيتجاوز أي فحص إضافي للمتجر اللي انت ممكن تكون حملت منه التطبيق.\nبمتابعتك، انت معترف إن نسخ Canary ممكن تكون مش مستقرة وعلى مسئوليتك الكاملة.</string>
     <string name="updates_canary_channel_confirmation">حول لقناة Canary عشان تجيلك الإصدارات التطويرية.\n\nإصدارات Canary بتتنشر تلقائياً من أحدث فرع تطويري.\nملاحظة: التنزيل المباشر من GitHub بيتجاوز أي فحص إضافي للمتجر اللي انت ممكن تكون حملت منه التطبيق.</string>
     <string name="onboarding_permission_device_audio_capture_desc">بيتعرف على المزيكا اللي شغالة في التطبيقات التانية من غير ما يستخدم المايك. أندرويد هيطلب منك إذن الشاشة والصوت، بس DevScout Music بياخد الصوت بس.</string>
+    <string name="remove_download_confirm">Are you sure you want to remove this downloaded item This action cannot be undone.</string>
+    <string name="remove_download_section_confirm">Are you sure you want to remove all downloads in this section This action cannot be undone.</string>
+    <string name="enable_betterlyrics_portato">Enable BetterLyrics Portato</string>
+    <string name="onboarding_login_title">Sync your listening</string>
+    <string name="onboarding_login_subtitle">Log in to sync your library and history across devices and get more reliable playback.</string>
+    <string name="onboarding_login_optional">Optional. You can log in later from Settings.</string>
+    <string name="onboarding_login_benefits_title">Your account helps DevScout Music</string>
+    <string name="onboarding_login_library_title">Sync your library</string>
+    <string name="onboarding_login_library_desc">Keep your saved music and playlists available wherever you listen.</string>
+    <string name="onboarding_login_history_title">Keep your history</string>
+    <string name="onboarding_login_history_desc">Continue your listening journey across devices with synced history.</string>
+    <string name="onboarding_login_playback_title">Better playback</string>
+    <string name="onboarding_login_playback_desc">Use your account context for a more dependable playback experience.</string>
+    <string name="onboarding_login_skip">Skip for now</string>
+    <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
+    <string name="new_releases_unavailable">New releases are temporarily unavailable</string>
+    <string name="new_releases_load_failed">DevScout Music could not load this YouTube Music section. Try again later.</string>
 </resources>
-
-
-

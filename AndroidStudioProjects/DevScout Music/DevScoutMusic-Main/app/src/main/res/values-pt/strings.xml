@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="home">Início</string>
     <string name="songs">Músicas</string>
@@ -17,7 +17,7 @@
     <string name="today">Hoje</string>
     <string name="yesterday">Ontem</string>
     <string name="this_week">Esta semana</string>
-    <string name="last_week">�sltima semana</string>
+    <string name="last_week">sltima semana</string>
     <string name="most_played_songs">Músicas mais tocadas</string>
     <string name="search">Pesquisar</string>
     <string name="search_yt_music">Pesquisar no Youtube Music</string>
@@ -48,7 +48,7 @@
     <string name="on_device">No dispositivo</string>
     <string name="recently_played">Tocadas Recentemente</string>
     <string name="top_mixes">Top Mixes para Ti</string>
-    <string name="library_top_mixes_loading">A preparar os mixes de IA�?�</string>
+    <string name="library_top_mixes_loading">A preparar os mixes de IA</string>
     <string name="library_top_mixes_refresh">Recarregar mixes</string>
     <string name="library_top_mixes_configure_ai">Configuração de IA</string>
     <string name="library_top_mixes_ai_not_configured_title">Configura a IA para crirar mixes</string>
@@ -63,8 +63,8 @@
     <string name="all_songs">Todas as Músicas</string>
     <string name="newest_first">Mais recentes primeiro</string>
     <string name="oldest_first">Mais antigos primeiro</string>
-    <string name="sort_a_to_z">A �?' Z</string>
-    <string name="sort_z_to_a">Z �?' A</string>
+    <string name="sort_a_to_z">A &#x2192; Z</string>
+    <string name="sort_z_to_a">Z &#x2192; A</string>
     <string name="sort_artist">Artista</string>
     <string name="most_played_sort">Mais tocadas</string>
     <string name="recently_added">Adicionadas recentemente</string>
@@ -110,8 +110,8 @@
     <string name="liked_songs">Músicas que gostei</string>
     <string name="downloaded_songs">Música transferida</string>
     <string name="playlist_is_empty">A lista de reprodução está vazia</string>
-    <string name="remove_download_playlist_confirm">Desejas remover todas as músicas da lista \"%s\" do armazenamento das Músicas Transferidas?</string>
-    <string name="delete_playlist_confirm">Desejas remover a lista \"%s\"?</string>
+    <string name="remove_download_playlist_confirm">Desejas remover todas as músicas da lista \"%s\" do armazenamento das Músicas Transferidas</string>
+    <string name="delete_playlist_confirm">Desejas remover a lista \"%s\"</string>
     <string name="change_playlist_cover">Mudar capa da lista</string>
     <string name="remove_playlist_cover">Remover capa personalizada</string>
     <string name="playlist_cover_updated">Capa da lista atualizada</string>
@@ -158,7 +158,7 @@
     <string name="add_to_queue">Adicionar à fila</string>
     <string name="add_to_library">Adicionar à biblioteca</string>
     <string name="remove_from_library">Remover da biblioteca</string>
-    <string name="remove_from_library_confirm">Remover \"%1$s\" da biblioteca?</string>
+    <string name="remove_from_library_confirm">Remover \"%1$s\" da biblioteca</string>
     <string name="action_download">Transferir</string>
     <string name="downloading">A Transferir</string>
     <string name="remove_download">Remover Transferência</string>
@@ -184,7 +184,7 @@
     <string name="hide_playlist">Ocultar lista de reprodução</string>
     <string name="unhide_playlist">Mostrar lista de reprodução</string>
     <string name="show_hidden_playlists">Mostrar ocultados</string>
-    <string name="hide_playlist_confirm">Ocultar \"%1$s\" da biblioteca?</string>
+    <string name="hide_playlist_confirm">Ocultar \"%1$s\" da biblioteca</string>
     <string name="together_participants">Participantes</string>
     <string name="together_connected_count">%1$d conectados</string>
     <string name="together_role_host">Anfitrião</string>
@@ -197,10 +197,10 @@
     <string name="together_transfer_host">Transferir Anfitrião</string>
     <string name="together_approve">Aprovar</string>
     <string name="together_reject">Rejeitar</string>
-    <string name="together_kick_confirm">Expulsar %1$s?</string>
-    <string name="together_ban_confirm">Banir %1$s?</string>
-    <string name="together_transfer_host_confirm">Transferir liderança a %1$s?</string>
-    <string name="together_requesting_song_change">A pedir que o anfitrião mude de música�?�</string>
+    <string name="together_kick_confirm">Expulsar %1$s</string>
+    <string name="together_ban_confirm">Banir %1$s</string>
+    <string name="together_transfer_host_confirm">Transferir liderança a %1$s</string>
+    <string name="together_requesting_song_change">A pedir que o anfitrião mude de música</string>
     <string name="together_song_change_failed">Mudança de música não aplicada. Por favor tenta novamente.</string>
     <string name="together_participant_joined_notification">%1$s entrou na sala</string>
     <string name="together_participant_left_notification">%1$s saiu da sala</string>
@@ -377,7 +377,7 @@
     <string name="palette_sage_green">Verde Salva</string>
     <string name="palette_sunset_orange">Pôr-do-Sol</string>
     <string name="palette_golden_hour">Dourado</string>
-    <string name="palette_warm_amber">�,mbar</string>
+    <string name="palette_warm_amber">,mbar</string>
     <string name="palette_tangerine_blast">Tangerina</string>
     <string name="palette_peach">Pêssego</string>
     <string name="palette_mango">Manga</string>
@@ -582,7 +582,7 @@
     <string name="external_downloader_package_desc">Nome do pacote da aplicação de downloader externo (ex.: com.deniscerri.ytdl)</string>
     <string name="open_with_downloader">Abrir com downloader</string>
     <string name="external_downloader_not_installed">A aplicação de downloader externo não está instalada</string>
-    <string name="external_downloader_not_configured">Nenhum downloader externo configurado. Configura um em Configurações �?' Player.</string>
+    <string name="external_downloader_not_configured">Nenhum downloader externo configurado. Configura um em Configurações &#x2192; Player.</string>
     <string name="add_symbol">Adicionar símbolo</string>
     <string name="enter_symbol">Inserir símbolo</string>
     <string name="equalizer">Equalizador</string>
@@ -651,7 +651,7 @@
     <string name="max_song_cache_size">Tamanho máximo da cache de músicas</string>
     <string name="clear_song_cache">Limpar cache de músicas</string>
     <string name="clear_lyrics_cache">Limpar cache de letras</string>
-    <string name="clear_lyrics_cache_confirm">Tens a certeza de que desejas limpar toda a cache de letras?</string>
+    <string name="clear_lyrics_cache_confirm">Tens a certeza de que desejas limpar toda a cache de letras</string>
     <string name="paxsenix_stats">Estatísticas da API Paxsenix</string>
     <string name="uptime">Tempo ativo</string>
     <string name="total_requests">Total de solicitações</string>
@@ -668,11 +668,11 @@
     <string name="listen_history">Histórico de músicas ouvidas</string>
     <string name="pause_listen_history">Pausar histórico de escuta</string>
     <string name="clear_listen_history">Limpar histórico de escuta</string>
-    <string name="clear_listen_history_confirm">Tens a certeza de que desejas limpar todo o histórico de escuta?</string>
+    <string name="clear_listen_history_confirm">Tens a certeza de que desejas limpar todo o histórico de escuta</string>
     <string name="search_history">Histórico de pesquisa</string>
     <string name="pause_search_history">Pausar histórico de pesquisa</string>
     <string name="clear_search_history">Limpar histórico de pesquisa</string>
-    <string name="clear_search_history_confirm">Tens a certeza de que desejas limpar todo o histórico de pesquisa?</string>
+    <string name="clear_search_history_confirm">Tens a certeza de que desejas limpar todo o histórico de pesquisa</string>
     <string name="use_login_for_browse_desc">Isto pode influenciar o conteúdo exibido e, por exemplo, mostrar álbuns exclusivos do Premium se estiveres conectado com uma conta Premium</string>
     <string name="disable_screenshot">Desativar captura de ecrã</string>
     <string name="disable_screenshot_desc">Quando esta opção está ativada, capturas de ecrã e a visualização da app em Recentes serão desativadas.</string>
@@ -827,7 +827,7 @@
     <string name="discord_show_when_paused_desc">Se ativado, o Rich Presence permanecerá visível durante a pausa com um ícone de pausa. Se desativado, o RPC desaparecerá quando pausado.</string>
     <string name="discord_paused">Pausado</string>
     <string name="logout_confirm_title">Confirmar saída</string>
-    <string name="logout_confirm_message">Tens a certeza de que desejas sair do Discord?.</string>
+    <string name="logout_confirm_message">Tens a certeza de que desejas sair do Discord.</string>
     <string name="logout_confirm_yes">Sair</string>
     <string name="logout_confirm_no">Cancelar</string>
     <string name="experiment_settings">Definições Experimentais</string>
@@ -859,8 +859,8 @@
     <string name="media_id_label">ID de mídia</string>
     <string name="status_active">ATIVO</string>
     <string name="status_inactive">INATIVO</string>
-    <string name="last_start">�sltimo Início</string>
-    <string name="last_end">�sltimo Fim</string>
+    <string name="last_start">sltimo Início</string>
+    <string name="last_end">sltimo Fim</string>
     <string name="debug_logs">Logs de Depuração</string>
     <string name="view_debug_logs_description">Visualizar e filtrar registos das aplicações</string>
     <string name="resume_logs">Retomar registos</string>
@@ -898,7 +898,7 @@
     <string name="update_channel">Canal de Atualização</string>
     <string name="update_channel_desc">Escolhe entre versões testadas e snapshots de desenvolvimento.</string>
     <string name="channel_stable">Estável</string>
-    <string name="channel_canary">Canary</string>
+    <string name="channel_canary">Canário</string>
     <string name="recent_commits">Commits Recentes</string>
     <string name="updates_canary_hosting_description">As versões Canary são publicadas automaticamente a partir do ramo de desenvolvimento mais recente.</string>
     <string name="updates_channel_warning_intro">O DevScout Music oferece dois canais de download para builds:</string>
@@ -1090,7 +1090,7 @@
     <string name="remove_account">Remover conta</string>
     <string name="add_another_account">Adicionar outra conta</string>
     <string name="unsaved_account_dialog_title">Conta não guardada</string>
-    <string name="unsaved_account_dialog_text">A conta atual ainda não foi guardada. Desejas guardá-la antes de adicionar outra conta?</string>
+    <string name="unsaved_account_dialog_text">A conta atual ainda não foi guardada. Desejas guardá-la antes de adicionar outra conta</string>
     <string name="unsaved_account_dialog_cancel">Cancelar login</string>
     <string name="unsaved_account_dialog_no_thanks">Não, obrigado</string>
     <string name="unsaved_account_dialog_save_yes">Sim, guardar conta atual</string>
@@ -1119,7 +1119,20 @@
     <string name="scheduled_backup_load_failed">Não foi possível carregar as configurações de cópia de segurança programadas</string>
     <string name="scheduled_backup_update_failed">Não foi possível guardar as configurações de cópia de segurança programadas</string>
     <string name="gatekeeper_connection_blocked">Ligação bloqueada pelo DevScout Music Remote. Não foi possível verificar se esta aplicação é uma versão oficial do DevScout Music. Instala uma versão oficial em https://github.com/rukamori/DevScout Music ou https://t.me/DevScout MusicGC.</string>
+    <string name="remove_download_confirm">Tem certeza de que deseja remover este item baixado? Esta ação não pode ser desfeita.</string>
+    <string name="remove_download_section_confirm">Tem certeza de que deseja remover todas as transferências desta seção? Esta ação não pode ser desfeita.</string>
+    <string name="onboarding_login_title">Sincronizar reprodução</string>
+    <string name="onboarding_login_subtitle">Entre para sincronizar sua biblioteca e histórico entre dispositivos e ter uma reprodução mais confiável.</string>
+    <string name="onboarding_login_optional">Opcional. Você pode entrar mais tarde em Configurações.</string>
+    <string name="onboarding_login_benefits_title">Sua conta ajuda o DevScout Music</string>
+    <string name="onboarding_login_library_title">Sincronizar biblioteca</string>
+    <string name="onboarding_login_library_desc">Mantenha sua música e playlists disponíveis em qualquer lugar.</string>
+    <string name="onboarding_login_history_title">Manter histórico</string>
+    <string name="onboarding_login_history_desc">Continue sua jornada de audição em todos os dispositivos com histórico sincronizado.</string>
+    <string name="onboarding_login_playback_title">Melhor reprodução</string>
+    <string name="onboarding_login_playback_desc">Use o contexto da sua conta para uma experiência de reprodução mais confiável.</string>
+    <string name="onboarding_login_skip">Pular por agora</string>
+    <string name="player_stream_client_devscout_music_extractor">DevScout Music extractor</string>
+    <string name="new_releases_unavailable">New releases are temporarily unavailable</string>
+    <string name="new_releases_load_failed">DevScout Music could not load this YouTube Music section. Try again later.</string>
 </resources>
-
-
-

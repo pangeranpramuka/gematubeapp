@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/icon.png" width="160" height="160" alt="DevScout Music Logo" style="border-radius: 22%">
+  <img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/icon.png" width="160" height="160" alt="DevScout Music Logo" style="border-radius: 22%">
 
   <h1>DevScout Music</h1>
 
@@ -25,14 +25,14 @@
     <a href="https://archivetune.koiiverse.cloud/privacy"><b>Privacy</b></a> •
     <a href="#download-now"><b>Download</b></a> •
     <a href="#screenshots"><b>Screenshots</b></a> •
-    <a href="https://github.com/pange/DevScoutMusic/issues/new/choose"><b>Support</b></a>
+    <a href="https://github.com/pangeranpramuka-hub/DevScoutMusic/issues/new/choose"><b>Support</b></a>
   </p>
 
   <div align="center">
-    <img src="https://img.shields.io/github/v/release/pange/DevScoutMusic?style=for-the-badge&color=6366f1&labelColor=1e1e2e&logo=github" alt="Latest Version" />
-    <img src="https://img.shields.io/github/downloads/pange/DevScoutMusic/total?style=for-the-badge&color=6366f1&labelColor=1e1e2e&logo=github" alt="Downloads" />
-    <img src="https://img.shields.io/github/stars/pange/DevScoutMusic?style=for-the-badge&color=6366f1&labelColor=1e1e2e&logo=github" alt="Stars" />
-    <img src="https://img.shields.io/github/license/pange/DevScoutMusic?style=for-the-badge&color=6366f1&labelColor=1e1e2e" alt="License" />
+    <img src="https://img.shields.io/github/v/release/pangeranpramuka-hub/DevScoutMusic?style=for-the-badge&color=6366f1&labelColor=1e1e2e&logo=github" alt="Latest Version" />
+    <img src="https://img.shields.io/github/downloads/pangeranpramuka-hub/DevScoutMusic/total?style=for-the-badge&color=6366f1&labelColor=1e1e2e&logo=github" alt="Downloads" />
+    <img src="https://img.shields.io/github/stars/pangeranpramuka-hub/DevScoutMusic?style=for-the-badge&color=6366f1&labelColor=1e1e2e&logo=github" alt="Stars" />
+    <img src="https://img.shields.io/github/license/pangeranpramuka-hub/DevScoutMusic?style=for-the-badge&color=6366f1&labelColor=1e1e2e" alt="License" />
     <img src="https://img.shields.io/badge/Architecture-MVVM-6366f1?style=for-the-badge&labelColor=1e1e2e&logo=kotlin" alt="MVVM Architecture" />
     <img src="https://img.shields.io/badge/Language-Kotlin-7f52ff?style=for-the-badge&logo=kotlin&color=6366f1&labelColor=1e1e2e" alt="Kotlin Language" />
     <img src="https://img.shields.io/badge/Toolkit-Jetpack_Compose-4285f4?style=for-the-badge&logo=jetpack-compose&color=6366f1&labelColor=1e1e2e" alt="Jetpack Compose Toolkit" />
@@ -69,15 +69,15 @@ If you choose to use a fork, you do so at your own risk.
 
 <div align="center">
 
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg" alt="Browse" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg" alt="Live Lyrics" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg" alt="Theme Customization" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg" alt="Live Statistics" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg" alt="Artist" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_6.jpg" alt="Album" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_7.jpg" alt="Player" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_8.jpg" alt="Settings" width="30%" />
-<img src="https://github.com/pange/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_9.jpg" alt="Settings" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_1.jpg" alt="Browse" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_2.jpg" alt="Live Lyrics" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_3.jpg" alt="Theme Customization" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_4.jpg" alt="Live Statistics" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_5.jpg" alt="Artist" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_6.jpg" alt="Album" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_7.jpg" alt="Player" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_8.jpg" alt="Settings" width="30%" />
+<img src="https://github.com/pangeranpramuka-hub/DevScoutMusic/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot_9.jpg" alt="Settings" width="30%" />
 
 </div>
 
@@ -188,13 +188,13 @@ If you choose to use a fork, you do so at your own risk.
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/pange/DevScoutMusic/">
+        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/pangeranpramuka-hub/DevScoutMusic/">
           <img src="https://github.com/ImranR98/Obtainium/blob/main/assets/graphics/badge_obtainium.png" height="50" alt="Get DevScout Music on Obtainium">
         </a>
       </td>
       <td align="center">
         <a href="https://apt.izzysoft.de/fdroid/index/apk/com.devscoutmusic">
-          <img src="https://raw.githubusercontent.com/pange/DevScoutMusic/757d5932832e1da27ced56de98c5ad1275cf0db1/assets/IzzyOnDroidButtonBorder.svg" height="50" alt="Get DevScout Music on IzzyOnDroid">
+          <img src="https://raw.githubusercontent.com/pangeranpramuka-hub/DevScoutMusic/757d5932832e1da27ced56de98c5ad1275cf0db1/assets/IzzyOnDroidButtonBorder.svg" height="50" alt="Get DevScout Music on IzzyOnDroid">
         </a>
       </td>
     </tr>
@@ -203,8 +203,8 @@ If you choose to use a fork, you do so at your own risk.
     </tr>
     <tr>
       <td align="center" colspan="2">
-        <a href="https://github.com/pange/DevScoutMusic/releases/latest">
-          <img src="https://raw.githubusercontent.com/pange/DevScoutMusic/refs/heads/main/assets/badge_github.png" height="50" alt="Get DevScout Music on GitHub">
+        <a href="https://github.com/pangeranpramuka-hub/DevScoutMusic/releases/latest">
+          <img src="https://raw.githubusercontent.com/pangeranpramuka-hub/DevScoutMusic/refs/heads/main/assets/badge_github.png" height="50" alt="Get DevScout Music on GitHub">
         </a>
       </td>
     </tr>
@@ -220,7 +220,7 @@ If you choose to use a fork, you do so at your own risk.
       </td>
       <td align="center">
         <a href="https://unclouded.app/apps/archivetune/">
-          <img src="https://raw.githubusercontent.com/pange/DevScoutMusic/refs/heads/dev/assets/badge_unclouded.png" height="50" alt="Get DevScout Music on Unclouded">
+          <img src="https://raw.githubusercontent.com/pangeranpramuka-hub/DevScoutMusic/refs/heads/dev/assets/badge_unclouded.png" height="50" alt="Get DevScout Music on Unclouded">
         </a>
       </td>
     </tr>
@@ -238,8 +238,8 @@ If you choose to use a fork, you do so at your own risk.
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://nightly.link/pange/DevScoutMusic/workflows/build/dev/app-gms-mobile-universal-release">
-          <img src="https://raw.githubusercontent.com/pange/DevScoutMusic/refs/heads/main/assets/badge_github.png" height="50" alt="Download the latest DevScout Music nightly build">
+        <a href="https://nightly.link/pangeranpramuka-hub/DevScoutMusic/workflows/build/dev/app-gms-mobile-universal-release">
+          <img src="https://raw.githubusercontent.com/pangeranpramuka-hub/DevScoutMusic/refs/heads/main/assets/badge_github.png" height="50" alt="Download the latest DevScout Music nightly build">
         </a>
       </td>
     </tr>
@@ -271,8 +271,8 @@ DevScout Music belongs to everyone. Help us localize the experience for your reg
 </div>
 
 ### ✨ Project Contributors
-<a href="https://github.com/pange/DevScoutMusic/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pange/DevScoutMusic&columns=6" />
+<a href="https://github.com/pangeranpramuka-hub/DevScoutMusic/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pangeranpramuka-hub/DevScoutMusic&columns=6" />
 </a>
 
 ### 🛠️ Development & Engineering
@@ -317,8 +317,8 @@ See the [`LICENSE`](LICENSE) file for the complete GPLv3 terms.
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pange/DevScoutMusic/refs/heads/dev/fastlane/metadata/android/en-US/images/ArchiveTuneFull.png" alt="DevScout Music Banner" style="width: 100%; max-width: 500px;">
+  <img src="https://raw.githubusercontent.com/pangeranpramuka-hub/DevScoutMusic/refs/heads/dev/fastlane/metadata/android/en-US/images/ArchiveTuneFull.png" alt="DevScout Music Banner" style="width: 100%; max-width: 500px;">
   <p><b>If DevScout Music elevated your music experience, please consider giving us a ⭐</b></p>
   <br />
-  <img src="https://raw.githubusercontent.com/pange/DevScoutMusic/refs/heads/dev/assets/badge_part.png" alt="DevScout Music Banner" style="width: 180px">
+  <img src="https://raw.githubusercontent.com/pangeranpramuka-hub/DevScoutMusic/refs/heads/dev/assets/badge_part.png" alt="DevScout Music Banner" style="width: 180px">
 </div>
