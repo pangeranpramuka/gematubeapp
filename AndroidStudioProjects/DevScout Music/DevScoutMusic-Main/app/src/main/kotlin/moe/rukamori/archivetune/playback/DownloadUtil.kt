@@ -145,14 +145,20 @@ class DownloadUtil
                         return@Factory dataSpec.withUri(it.url.toUri())
                     }
                 val playbackData =
-                    runBlocking(Dispatchers.IO) {
-                        context.retryWithoutPlaybackLoginContext {
-                            YTPlayerUtils.playerResponseForDownload(
-                                mediaId,
-                                audioQuality = requestedAudioQuality,
-                                connectivityManager = connectivityManager,
-                                networkMetered = lowDataModeActive,
-                            )
+                    runCatching {
+                        if (android.os.Looper.getMainLooper().thread == Thread.currentThread()) {
+                            throw IllegalStateException("Refusing to perform blocking network call on main thread")
+                        } else {
+                            runBlocking(Dispatchers.IO) {
+                                context.retryWithoutPlaybackLoginContext {
+                                    YTPlayerUtils.playerResponseForDownload(
+                                        mediaId,
+                                        audioQuality = requestedAudioQuality,
+                                        connectivityManager = connectivityManager,
+                                        networkMetered = lowDataModeActive,
+                                    )
+                                }
+                            }
                         }
                     }.getOrThrow()
                 persistPlaybackMetadata(mediaId, playbackData)

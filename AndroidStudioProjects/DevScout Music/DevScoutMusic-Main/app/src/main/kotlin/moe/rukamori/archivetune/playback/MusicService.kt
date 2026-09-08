@@ -361,12 +361,12 @@ class MusicService :
     private val audioQuality by enumPreference(
         this,
         AudioQualityKey,
-        moe.rukamori.archivetune.constants.AudioQuality.AUTO,
+        AudioQuality.HIGHEST,
     )
     private val preferredStreamClient by enumPreference(
         this,
         PlayerStreamClientKey,
-        PlayerStreamClient.ANDROID_VR,
+        PlayerStreamClient.WEB_REMIX,
     )
     private val playbackUrlCache = ConcurrentHashMap<String, AuthScopedCacheValue>()
     private val extractorPlaybackUrlCache = ConcurrentHashMap<String, AuthScopedCacheValue>()
@@ -3676,6 +3676,14 @@ class MusicService :
         playbackUrlCache.remove(mediaId)
         extractorPlaybackUrlCache.remove(mediaId)
         YTPlayerUtils.invalidateCachedStreamUrls(mediaId)
+
+        if (responseException.responseCode == 403) {
+            YTPlayerUtils.clearPlaybackAuthCaches()
+            scope.launch {
+                moe.rukamori.archivetune.utils.potoken.BotGuardTokenGenerator.invalidateAll()
+            }
+        }
+
         if (!failedExpiredUrl && cachedExtractorFailedUrl == null && requestProfile.clientKey.isNotEmpty()) {
             YTPlayerUtils.markStreamClientFailed(mediaId, requestProfile.clientKey, responseException.responseCode)
         }
@@ -7522,8 +7530,12 @@ class MusicService :
         }
         val mediaId = dataSpec.key ?: return dataSpec
         val storedFormat =
-            runBlocking(Dispatchers.IO) {
-                database.format(mediaId).first()
+            if (android.os.Looper.getMainLooper().thread == Thread.currentThread()) {
+                null
+            } else {
+                runBlocking(Dispatchers.IO) {
+                    database.format(mediaId).first()
+                }
             }
         storedFormat?.let { format ->
             format.toCastMimeType()?.let { castMimeTypeCache.put(mediaId, it) }
@@ -7605,24 +7617,30 @@ class MusicService :
             }
 
         val playbackData =
-            runBlocking(Dispatchers.IO) {
-                retryWithoutPlaybackLoginContext {
-                    YTPlayerUtils.playerResponseForPlayback(
-                        mediaId,
-                        audioQuality = if (lowDataModeActive) AudioQuality.LOW else audioQuality,
-                        connectivityManager = connectivityManager,
-                        preferredStreamClient = preferredStreamClient,
-                        networkMetered = lowDataModeActive,
-                    )
-                }.recoverCatching { youtubeFailure ->
-                    if (youtubeFailure !is YTPlayerUtils.BotDetectionPlaybackException) throw youtubeFailure
+            runCatching {
+                if (android.os.Looper.getMainLooper().thread == Thread.currentThread()) {
+                    throw IllegalStateException("Refusing to perform blocking network call on main thread")
+                } else {
+                    runBlocking(Dispatchers.IO) {
+                        retryWithoutPlaybackLoginContext {
+                            YTPlayerUtils.playerResponseForPlayback(
+                                mediaId,
+                                audioQuality = if (lowDataModeActive) AudioQuality.LOW else audioQuality,
+                                connectivityManager = connectivityManager,
+                                preferredStreamClient = preferredStreamClient,
+                                networkMetered = lowDataModeActive,
+                            )
+                        }.recoverCatching { youtubeFailure ->
+                            if (youtubeFailure !is YTPlayerUtils.BotDetectionPlaybackException) throw youtubeFailure
 
-                    Timber.tag("MusicService").w(
-                        youtubeFailure,
-                        "YouTube stream clients hit bot detection for %s; trying external audio fallback",
-                        mediaId,
-                    )
-                    throw youtubeFailure
+                            Timber.tag("MusicService").w(
+                                youtubeFailure,
+                                "YouTube stream clients hit bot detection for %s; trying external audio fallback",
+                                mediaId,
+                            )
+                            throw youtubeFailure
+                        }
+                    }
                 }
             }.getOrElse { throwable ->
                 when {
@@ -7791,13 +7809,17 @@ class MusicService :
 
         val extraction =
             runCatching {
-                runBlocking(Dispatchers.IO) {
-                    streamingExtractionManager.extractAudio(
-                        videoUrl = mediaId.toYouTubeWatchUrl(),
-                        userPoToken = authState.resolveExtractorPoToken(mediaId),
-                        cookies = authState.resolveExtractorCookies(),
-                        userGvsToken = authState.resolveExtractorGvsToken(mediaId),
-                    )
+                if (android.os.Looper.getMainLooper().thread == Thread.currentThread()) {
+                    throw IllegalStateException("Refusing to perform blocking extraction on main thread")
+                } else {
+                    runBlocking(Dispatchers.IO) {
+                        streamingExtractionManager.extractAudio(
+                            videoUrl = mediaId.toYouTubeWatchUrl(),
+                            userPoToken = authState.resolveExtractorPoToken(mediaId),
+                            cookies = authState.resolveExtractorCookies(),
+                            userGvsToken = authState.resolveExtractorGvsToken(mediaId),
+                        )
+                    }
                 }
             }.getOrElse { throwable ->
                 when {
