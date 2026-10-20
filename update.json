@@ -1,0 +1,9 @@
+{
+  "flavors": {
+    "newpipe": {
+      "version": "2.0.0",
+      "version_code": 200,
+      "apk": "https://github.com/pangeranpramuka/gematubeapp/releases/download/v2.0.0/GemaTube-v2.0.0.apk"
+    }
+  }
+}
